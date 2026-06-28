@@ -1,0 +1,148 @@
+Id,Label,type,entity_type,primary_category,mentions,period,language,is_identified,degree,modularity_class,Eccentricity,closnesscentrality,harmonicclosnesscentrality,betweenesscentrality
+61,Alexander The Great,mentioned_only,person,non_epistolary,6,united states,Spanish,true,5,4,3,0.505263,0.515046,2.5
+1,Luis Mitrovic Balbontín,ego,person,mixed,0,all,mixed,true,142,4,2,0.986301,0.993056,8486.365307
+112,Unknown_S3,direct_correspondent,person,non_epistolary,0,united states,Spanish,true,2,4,3,0.5,0.50463,0
+16,Unknown_S4,direct_correspondent,person,non_epistolary,0,united states,English,true,2,4,3,0.5,0.50463,0
+32,Lem Bottoms,direct_correspondent,person,institutional_letter,0,united states,English,true,1,4,3,0.49827,0.501157,0
+71,Luis Mitrovic Puljizević,direct_correspondent,person,personal_letter,3,all,Spanish,true,7,4,3,0.510638,0.523148,61.166667
+138,O. B. Y.,direct_correspondent,person,institutional_letter,0,european,Spanish,true,2,4,4,0.355556,0.369792,0
+149,Peter Behrens,direct_correspondent,person,personal_letter,9,european,German,true,23,4,3,0.541353,0.578704,125.107143
+17,Luis Arteaga,direct_correspondent,person,institutional_letter,0,european,Spanish,true,1,4,3,0.49827,0.501157,0
+82,Adolf Hitler,mentioned_only,person,personal_letter,6,european,German,true,12,4,3,0.517986,0.539352,15.833333
+136,Hermann Göring,mentioned_only,person,personal_letter,2,european,mixed,true,4,4,3,0.503497,0.511574,0
+30,Winold Tjark Reiss,direct_correspondent,person,personal_letter,34,all,English,true,37,4,3,0.571429,0.627315,245.240476
+100,Luis Valdés,mentioned_only,person,personal_letter,3,european,English,true,8,0,3,0.510638,0.525463,2.375
+88,Nora Siré,direct_correspondent,person,personal_letter,13,all,English,true,11,4,3,0.516129,0.53588,8.783333
+56,Erick,mentioned_only,person,personal_letter,2,european,English,true,4,4,3,0.505263,0.512731,0
+70,Franz Krandt,mentioned_only,person,personal_letter,2,european,English,false,4,4,3,0.505263,0.512731,0
+24,Mary,mentioned_only,person,personal_letter,9,european,English,true,8,4,3,0.510638,0.525463,1.833333
+81,Sergio Larraín,mentioned_only,person,personal_letter,4,european,mixed,true,11,0,3,0.516129,0.53588,7.658333
+103,Cucho Errázuriz,direct_correspondent,person,personal_letter,10,european,English,true,9,4,3,0.512456,0.528935,5.033333
+128,George H. Watson,direct_correspondent,person,institutional_letter,1,european,English,true,1,4,3,0.49827,0.501157,0
+93,Agustin Edwards,mentioned_only,person,mixed,2,european,English,true,7,4,3,0.508834,0.521991,4.25
+129,Francis Boardman,direct_correspondent,person,personal_letter,0,european,English,true,4,4,3,0.503497,0.511574,0
+92,John Jay,direct_correspondent,person,personal_letter,0,european,English,true,4,4,3,0.503497,0.511574,0
+148,Julio,mentioned_only,person,personal_letter,3,european,Spanish,true,11,4,3,0.516129,0.53588,15.666667
+108,Etienne,mentioned_only,person,personal_letter,15,all,Spanish,false,5,4,3,0.505263,0.515046,0
+2,Phil,mentioned_only,person,personal_letter,3,chilean,Spanish,true,8,2,3,0.510638,0.525463,0
+62,Roland Palmedo,direct_correspondent,person,personal_letter,5,chilean,Spanish,true,8,2,3,0.510638,0.525463,0
+143,Harriet,mentioned_only,person,personal_letter,3,chilean,English,true,2,1,3,0.5,0.50463,0
+48,Harriet and Don,direct_correspondent,person,personal_letter,0,chilean,English,true,2,1,3,0.5,0.50463,0
+140,Daniel De Wolff,mentioned_only,person,personal_letter,2,european,English,true,2,4,3,0.5,0.50463,0
+54,Mrs. Boward,direct_correspondent,person,personal_letter,1,european,English,true,4,4,3,0.503497,0.511574,0
+127,John,mentioned_only,person,personal_letter,5,european,English,true,13,4,3,0.521739,0.543981,11.233333
+99,Renate Reiss,mentioned_only,person,personal_letter,4,chilean,English,true,4,4,3,0.503497,0.511574,0
+91,Hilty,mentioned_only,person,personal_letter,2,european,English,true,4,4,3,0.503497,0.511574,0
+75,Betty Schönmeyer,mentioned_only,person,personal_letter,5,european,Spanish,true,19,2,3,0.531365,0.563657,10.190559
+122,Consuelo Gana Snodgrass,mentioned_only,person,personal_letter,24,all,Spanish,true,32,2,3,0.55814,0.608796,61.808164
+3,Cota Vicuña,mentioned_only,person,personal_letter,2,european,English,true,8,2,3,0.510638,0.525463,2.533333
+126,Marcos,mentioned_only,person,personal_letter,5,european,Spanish,true,9,4,3,0.512456,0.528935,6.666667
+50,Sergio Matta,mentioned_only,person,personal_letter,2,european,English,true,6,2,3,0.507042,0.518519,0
+151,John C. Harkness,direct_correspondent,person,professional_letter,0,united states,English,true,1,4,3,0.49827,0.501157,0
+68,Matías Astoreca Sartori,direct_correspondent,person,personal_letter,4,european,Spanish,true,11,4,3,0.516129,0.53588,13.916667
+135,May,mentioned_only,person,personal_letter,2,european,English,true,4,2,3,0.503497,0.511574,0
+130,Oscar,mentioned_only,person,personal_letter,2,european,Spanish,true,2,2,3,0.5,0.50463,0
+76,Cornelius Stribling Snodgrass Sr.,mentioned_only,person,personal_letter,21,all,Spanish,true,26,2,3,0.545455,0.587963,30.233958
+101,Ford Bartlett,mentioned_only,person,personal_letter,9,chilean,Spanish,true,26,2,3,0.545455,0.587963,20.808164
+42,Jenny,mentioned_only,person,personal_letter,3,european,English,true,9,6,3,0.512456,0.528935,7.5
+14,Raúl Vial,mentioned_only,person,personal_letter,6,chilean,Spanish,true,23,2,3,0.539326,0.577546,13.561735
+114,Anita Lyon,mentioned_only,person,personal_letter,3,chilean,Spanish,true,16,2,3,0.525547,0.553241,2.263034
+7,Eliana Ward,mentioned_only,person,personal_letter,2,chilean,Spanish,true,11,2,3,0.516129,0.53588,0
+145,Ernesto Pinto,mentioned_only,person,personal_letter,3,chilean,Spanish,true,16,2,3,0.525547,0.553241,2.263034
+142,Lalo Frias,mentioned_only,person,personal_letter,2,chilean,Spanish,true,13,2,3,0.519856,0.542824,7.583333
+141,Luisa,mentioned_only,person,personal_letter,2,chilean,Spanish,true,20,2,3,0.533333,0.56713,4.735065
+131,Patricio,mentioned_only,person,personal_letter,2,chilean,Spanish,true,11,2,3,0.516129,0.53588,0
+78,Raquel,mentioned_only,person,personal_letter,3,chilean,Spanish,true,21,2,3,0.535316,0.570602,5.550624
+55,Blaise,mentioned_only,person,personal_letter,3,chilean,Spanish,true,13,2,3,0.519856,0.542824,2.458333
+107,Estanislao Echenique Guzmán,mentioned_only,person,personal_letter,5,european,Spanish,true,24,2,3,0.541353,0.581019,42.520069
+83,Felipe,mentioned_only,person,personal_letter,2,chilean,Spanish,true,19,2,3,0.531365,0.563657,2.736735
+133,Louise,mentioned_only,person,personal_letter,2,chilean,Spanish,true,14,2,3,0.521739,0.546296,0.813636
+49,Henderson,mentioned_only,person,personal_letter,2,chilean,Spanish,true,16,2,3,0.525547,0.553241,0.440559
+57,William,mentioned_only,person,personal_letter,2,chilean,Spanish,true,15,2,3,0.523636,0.549769,0
+106,Henry Young,mentioned_only,person,personal_letter,2,chilean,Spanish,true,15,2,3,0.523636,0.549769,0
+89,Jaeger,mentioned_only,person,personal_letter,2,chilean,Spanish,true,15,2,3,0.523636,0.549769,0
+52,Yaya,mentioned_only,person,personal_letter,2,chilean,Spanish,true,15,2,3,0.523636,0.549769,0
+113,Baburizza & Company LTD,direct_correspondent,organization,institutional_letter,5,european,English,true,5,4,3,0.505263,0.515046,1.5
+28,Franica Abovic,mentioned_only,person,personal_letter,5,european,Spanish,true,11,4,3,0.516129,0.53588,14.666667
+72,Miguel Abovic,mentioned_only,person,institutional_letter,2,european,English,true,4,4,3,0.503497,0.511574,0
+38,John Grisar,direct_correspondent,person,institutional_letter,2,european,German,true,1,4,3,0.49827,0.501157,0
+29,Alfonso,mentioned_only,person,personal_letter,2,european,Spanish,true,3,3,3,0.503497,0.509259,0
+125,Antonio,mentioned_only,person,personal_letter,2,european,Spanish,true,3,3,3,0.503497,0.509259,0
+35,Jorge Hübner Gallo,direct_correspondent,person,personal_letter,4,european,Spanish,true,5,3,3,0.507042,0.516204,73
+146,Unknown_S62,direct_correspondent,person,personal_letter,0,european,Spanish,true,1,4,3,0.49827,0.501157,0
+69,Unknown_S63,direct_correspondent,person,institutional_letter,0,european,German,true,1,4,3,0.49827,0.501157,0
+34,Rolf Altenburger,direct_correspondent,person,personal_letter,20,all,German,true,30,4,3,0.555985,0.603009,128.640476
+41,Alexander Popp,direct_correspondent,person,personal_letter,6,european,German,true,17,4,3,0.529412,0.55787,16.5
+79,Bubi Laub,mentioned_only,person,personal_letter,5,all,German,true,11,4,3,0.517986,0.537037,3.35
+87,Daisy Burggräfin zu Dohna,mentioned_only,person,personal_letter,12,all,German,true,18,4,3,0.531365,0.561343,31.040476
+12,Miss Bodenhausen,mentioned_only,person,personal_letter,2,european,German,true,9,4,3,0.514286,0.530093,0
+77,Norkauer,mentioned_only,person,personal_letter,4,european,German,true,18,4,3,0.531365,0.561343,14.857143
+37,Wilhelm Gustloff,mentioned_only,person,personal_letter,3,european,German,true,13,4,3,0.521739,0.543981,2.107143
+4,Spengemann,mentioned_only,person,personal_letter,3,european,German,true,5,4,3,0.505263,0.515046,0
+31,John G. Dijkstra,direct_correspondent,person,personal_letter,5,all,English,true,10,4,3,0.514286,0.532407,4.783333
+111,Pia,mentioned_only,person,personal_letter,5,chilean,German,true,10,4,3,0.514286,0.532407,1.8
+134,Frau Avenarius,mentioned_only,person,personal_letter,2,european,German,true,5,4,3,0.505263,0.515046,0
+23,Bastian,mentioned_only,person,personal_letter,2,chilean,German,true,7,4,3,0.508834,0.521991,0
+117,Dieter Dijkstra,mentioned_only,person,personal_letter,3,chilean,English,true,10,4,3,0.514286,0.532407,1.8
+104,Marc Rich,mentioned_only,person,personal_letter,2,chilean,German,true,7,4,3,0.508834,0.521991,0
+67,Sabin Dijkstra,mentioned_only,person,personal_letter,2,chilean,mixed,true,10,4,3,0.514286,0.532407,1.8
+26,Tim,mentioned_only,person,personal_letter,2,chilean,German,true,7,4,3,0.508834,0.521991,0
+27,Emil Fahrenkamp,mentioned_only,person,personal_letter,6,european,German,true,7,4,3,0.508834,0.521991,1.833333
+33,Miss Italia,mentioned_only,person,personal_letter,2,european,German,false,3,4,3,0.501742,0.508102,0
+86,Mr. Brown,mentioned_only,person,personal_letter,2,european,German,true,4,4,3,0.503497,0.511574,0
+46,Erwin Winkelmann,mentioned_only,person,personal_letter,3,european,Spanish,true,3,4,3,0.501742,0.508102,0
+22,Friedrich Oetzmann,direct_correspondent,person,personal_letter,2,european,Spanish,true,3,4,3,0.501742,0.508102,0
+11,Emil Hoppe,direct_correspondent,person,professional_letter,1,european,German,true,2,5,1,1,1,0
+5,Miguel Dávila Carson,direct_correspondent,person,professional_letter,2,european,German,true,2,5,1,1,1,0
+119,Otto Schönthal,direct_correspondent,person,professional_letter,1,european,German,true,2,5,1,1,1,0
+8,Prof. Schultze-Naumburg,mentioned_only,person,mixed,2,european,German,true,9,4,3,0.514286,0.530093,3.833333
+10,Rectorate,direct_correspondent,organization,institutional_letter,0,european,German,true,2,4,3,0.5,0.50463,0
+137,Herbert Fronisius,direct_correspondent,person,personal_letter,2,european,German,true,9,4,3,0.514286,0.530093,0.8
+94,Beblo,mentioned_only,person,personal_letter,2,european,German,true,8,4,3,0.512456,0.52662,0
+116,Morkus,mentioned_only,person,personal_letter,2,european,German,true,8,4,3,0.512456,0.52662,0
+53,Roderich Fick,mentioned_only,person,personal_letter,3,european,German,true,8,4,3,0.512456,0.52662,0
+59,Helmuth Holzer,direct_correspondent,person,personal_letter,0,european,German,true,2,4,3,0.5,0.50463,0
+15,Howard F. Elkus,direct_correspondent,person,personal_letter,1,chilean,English,true,4,6,3,0.503497,0.511574,0
+123,Jamie,mentioned_only,person,personal_letter,2,chilean,English,true,4,6,3,0.503497,0.511574,0
+109,Lorna,mentioned_only,person,personal_letter,3,chilean,English,true,4,6,3,0.503497,0.511574,0
+120,Franz J. Kranl,direct_correspondent,person,personal_letter,2,all,German,true,4,4,3,0.505263,0.512731,0
+58,Eugenia Bund,direct_correspondent,person,personal_letter,1,european,Spanish,true,1,4,3,0.49827,0.501157,0
+144,Tomas Hager,direct_correspondent,person,personal_letter,0,european,Spanish,true,1,4,3,0.49827,0.501157,0
+13,Cornelius Stribling Snodgrass Jr.,direct_correspondent,person,personal_letter,3,chilean,Spanish,true,6,2,3,0.507042,0.518519,0
+97,Eleanor Lee Potts,direct_correspondent,person,personal_letter,4,chilean,mixed,true,6,2,3,0.507042,0.518519,0
+43,Unknown_S102,direct_correspondent,person,personal_letter,0,chilean,English,true,2,4,3,0.5,0.50463,0
+36,Georgia Balbontín,direct_correspondent,person,personal_letter,5,european,Spanish,true,8,4,3,0.510638,0.525463,5
+105,Mario Matta,mentioned_only,person,personal_letter,2,european,Spanish,true,6,0,3,0.507042,0.518519,0
+90,Paz,mentioned_only,person,personal_letter,3,european,Spanish,true,8,0,3,0.510638,0.525463,4.666667
+60,Roberto Dávila Carson,mentioned_only,person,personal_letter,2,european,Spanish,true,6,0,3,0.507042,0.518519,0
+74,Eugen Himmel,direct_correspondent,person,personal_letter,3,all,German,true,2,4,3,0.5,0.50463,0
+47,Roberto,mentioned_only,person,personal_letter,2,european,Spanish,true,3,0,3,0.501742,0.508102,0
+80,Díaz Casanueva,mentioned_only,person,personal_letter,4,european,Spanish,true,4,4,3,0.503497,0.511574,0
+20,Gonzalo,mentioned_only,person,personal_letter,8,european,Spanish,false,10,4,3,0.514286,0.532407,6.283333
+139,Gonzalo Latorre Salamanca,direct_correspondent,person,personal_letter,4,european,Spanish,true,12,4,3,0.519856,0.540509,18.15
+95,Álvarez,mentioned_only,person,personal_letter,6,european,Spanish,true,4,4,3,0.503497,0.511574,0
+18,Aunt Elisa,direct_correspondent,person,personal_letter,0,european,German,true,2,7,3,0.5,0.50463,0
+124,Ped,mentioned_only,person,personal_letter,2,european,German,true,2,7,3,0.5,0.50463,0
+118,Ofelia Gallo Schiavetti,direct_correspondent,person,personal_letter,2,european,Spanish,true,3,3,3,0.503497,0.509259,70
+121,Gonzalo Diaz,direct_correspondent,person,personal_letter,1,european,Spanish,true,2,3,4,0.338028,0.345486,0
+85,Juan Echenique Guzmán,direct_correspondent,person,personal_letter,0,united states,Spanish,true,2,8,3,0.5,0.50463,0
+6,Pilola Celis,direct_correspondent,person,personal_letter,0,united states,Spanish,true,2,8,3,0.5,0.50463,0
+44,Ricardo Ahumada,direct_correspondent,person,personal_letter,0,european,Spanish,true,3,4,3,0.503497,0.509259,0
+98,Hannes Schneider,mentioned_only,person,mixed,2,chilean,English,true,8,4,3,0.510638,0.525463,3
+115,Luis Vera,direct_correspondent,person,non_epistolary,1,united states,English,true,1,4,3,0.49827,0.501157,0
+45,Agustín Barrientos,direct_correspondent,person,institutional_letter,1,chilean,Spanish,true,2,9,3,0.5,0.50463,0
+51,Manuel Baquedano,mentioned_only,person,institutional_letter,2,chilean,Spanish,true,2,9,3,0.5,0.50463,0
+21,Eugene Dubois,direct_correspondent,person,non_epistolary,0,chilean,English,true,2,4,3,0.5,0.50463,0
+9,Bruno,mentioned_only,person,personal_letter,7,chilean,Spanish,false,5,4,3,0.505263,0.515046,0
+102,Ana María Migliassi,mentioned_only,person,personal_letter,2,chilean,Spanish,true,2,10,3,0.5,0.50463,0
+110,Fernando Migliassi,direct_correspondent,person,personal_letter,2,chilean,Spanish,true,2,10,3,0.5,0.50463,0
+147,Club Alemán de Excursionismo,direct_correspondent,organization,institutional_letter,2,european,German,true,1,4,3,0.49827,0.501157,0
+19,Susan,mentioned_only,person,personal_letter,3,chilean,Spanish,true,6,2,3,0.507042,0.518519,0
+96,Ximena,direct_correspondent,person,personal_letter,1,european,Spanish,true,3,4,3,0.501742,0.508102,0
+25,tía Ita,mentioned_only,person,personal_letter,5,european,Spanish,true,3,4,3,0.501742,0.508102,0
+66,Thomas H. Wesley,direct_correspondent,person,personal_letter,0,chilean,Spanish,true,2,4,3,0.501742,0.505787,0
+84,Unknown_S65,direct_correspondent,person,personal_letter,0,chilean,English,true,2,4,3,0.5,0.50463,0
+39,Edward VIII,mentioned_only,person,personal_letter,2,european,German,true,9,4,3,0.514286,0.530093,0
+63,Juliane,mentioned_only,person,personal_letter,2,european,German,true,9,4,3,0.514286,0.530093,0
+132,the Queen Mother of Holland,mentioned_only,person,personal_letter,2,european,German,true,9,4,3,0.514286,0.530093,0
+150,Angela Gana,direct_correspondent,person,personal_letter,47,all,mixed,true,51,2,3,0.60251,0.674769,395.958164

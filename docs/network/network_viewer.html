@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mitrovic Correspondence Network</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/graphology@0.25.1/dist/graphology.umd.min.js"></script>
+  <script src="graphology-gexf.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sigma@2.4.0/build/sigma.min.js"></script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:         #F7F5F0;
+      --surface:    #FFFFFF;
+      --border:     #E0DBD3;
+      --text:       #1A1A1A;
+      --text-muted: #6B6560;
+      --accent:     #C0392B;
+      --font-display: 'Georgia', serif;
+      --font-ui:      system-ui, -apple-system, sans-serif;
+      --font-mono:    'Courier New', monospace;
+    }
+
+    body {
+      font-family: var(--font-ui);
+      background: var(--bg);
+      color: var(--text);
+      height: 100vh;
+      display: grid;
+      grid-template-rows: auto 1fr;
+      overflow: hidden;
+    }
+
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 14px 24px;
+      display: flex;
+      align-items: baseline;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .header-title {
+      font-family: var(--font-display);
+      font-size: 15px;
+      font-weight: normal;
+      color: var(--text);
+    }
+
+    .header-meta {
+      font-size: 12px;
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+    }
+
+    .workspace {
+      display: grid;
+      grid-template-columns: 240px 1fr 280px;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    .panel-left {
+      background: var(--surface);
+      border-right: 1px solid var(--border);
+      padding: 20px 16px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .panel-section-title {
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+
+    .view-buttons { display: flex; flex-direction: column; gap: 6px; }
+
+    .view-btn {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 12px;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      background: transparent;
+      cursor: pointer;
+      font-size: 13px;
+      color: var(--text);
+      text-align: left;
+      transition: all 0.15s;
+    }
+
+    .view-btn:hover { background: var(--bg); }
+
+    .view-btn.active {
+      border-color: var(--accent);
+      background: #FDF0EE;
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .view-btn .btn-dot {
+      width: 10px; height: 10px;
+      border-radius: 50%; flex-shrink: 0;
+    }
+
+    .legend { display: flex; flex-direction: column; gap: 7px; }
+
+    .legend-item {
+      display: flex; align-items: center;
+      gap: 9px; font-size: 12px; color: var(--text);
+    }
+
+    .legend-dot {
+      width: 10px; height: 10px;
+      border-radius: 50%; flex-shrink: 0;
+    }
+
+    #search-input {
+      width: 100%; padding: 7px 10px;
+      border: 1px solid var(--border); border-radius: 4px;
+      font-size: 13px; background: var(--bg); color: var(--text); outline: none;
+    }
+
+    #search-input:focus { border-color: var(--accent); }
+
+    .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+
+    .stat-box { background: var(--bg); border-radius: 4px; padding: 8px 10px; }
+
+    .stat-value {
+      font-family: var(--font-mono); font-size: 18px;
+      font-weight: bold; color: var(--text);
+    }
+
+    .stat-label { font-size: 10px; color: var(--text-muted); margin-top: 2px; }
+
+    #sigma-container { position: relative; background: var(--bg); }
+
+    #loading {
+      position: absolute; inset: 0;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      gap: 12px; background: var(--bg); z-index: 10;
+      font-size: 13px; color: var(--text-muted);
+    }
+
+    .spinner {
+      width: 28px; height: 28px;
+      border: 2px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .panel-right {
+      background: var(--surface);
+      border-left: 1px solid var(--border);
+      padding: 20px 16px; overflow-y: auto;
+    }
+
+    #node-detail h3 {
+      font-family: var(--font-display);
+      font-size: 16px; margin-bottom: 12px; line-height: 1.3;
+    }
+
+    .detail-empty { font-size: 13px; color: var(--text-muted); line-height: 1.6; }
+
+    .detail-row {
+      display: flex; justify-content: space-between;
+      align-items: baseline; padding: 6px 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 13px; gap: 12px;
+    }
+
+    .detail-row:last-child { border-bottom: none; }
+
+    .detail-key {
+      color: var(--text-muted); font-size: 11px;
+      text-transform: uppercase; letter-spacing: 0.05em; flex-shrink: 0;
+    }
+
+    .detail-val { font-weight: 500; text-align: right; }
+
+    .badge {
+      display: inline-block; padding: 2px 8px;
+      border-radius: 10px; font-size: 11px;
+      font-weight: 600; color: white;
+    }
+
+    .edges-list { margin-top: 16px; }
+
+    .edges-list-title {
+      font-size: 10px; font-weight: 600;
+      letter-spacing: 0.08em; text-transform: uppercase;
+      color: var(--text-muted); margin-bottom: 8px;
+    }
+
+    .edge-item {
+      font-size: 12px; padding: 4px 0;
+      border-bottom: 1px solid var(--border);
+      display: flex; justify-content: space-between;
+    }
+
+    .edge-item:last-child { border-bottom: none; }
+
+    .edge-weight {
+      font-family: var(--font-mono); font-size: 11px; color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <span class="header-title">Luis Mitrovic Balbontín — Correspondence Network</span>
+  <span class="header-meta">147 nodes · 662 edges · 1934–2006</span>
+</header>
+
+<div class="workspace">
+
+  <aside class="panel-left">
+    <div>
+      <div class="panel-section-title">Color by</div>
+      <div class="view-buttons">
+        <button class="view-btn active" data-mode="type" onclick="setMode('type')">
+          <span class="btn-dot" style="background:#C0392B"></span>Node type
+        </button>
+        <button class="view-btn" data-mode="period" onclick="setMode('period')">
+          <span class="btn-dot" style="background:#9B59B6"></span>Biographical period
+        </button>
+        <button class="view-btn" data-mode="language" onclick="setMode('language')">
+          <span class="btn-dot" style="background:#16A085"></span>Correspondence language
+        </button>
+        <button class="view-btn" data-mode="community" onclick="setMode('community')">
+          <span class="btn-dot" style="background:#D4AC0D"></span>Community (Louvain)
+        </button>
+      </div>
+    </div>
+
+    <div>
+      <div class="panel-section-title">Legend</div>
+      <div class="legend" id="legend"></div>
+    </div>
+
+    <div>
+      <div class="panel-section-title">Search</div>
+      <input id="search-input" type="text" placeholder="Search node…" oninput="searchNode(this.value)" />
+    </div>
+
+    <div>
+      <div class="panel-section-title">Network</div>
+      <div class="stat-grid">
+        <div class="stat-box"><div class="stat-value">147</div><div class="stat-label">Nodes</div></div>
+        <div class="stat-box"><div class="stat-value">662</div><div class="stat-label">Edges</div></div>
+        <div class="stat-box"><div class="stat-value">0.06</div><div class="stat-label">Density</div></div>
+        <div class="stat-box"><div class="stat-value">0.33</div><div class="stat-label">Modularity</div></div>
+      </div>
+    </div>
+  </aside>
+
+  <div id="sigma-container">
+    <div id="loading"><div class="spinner"></div>Loading network…</div>
+  </div>
+
+  <aside class="panel-right">
+    <div id="node-detail">
+      <p class="detail-empty">Click on a node to see its details, connections, and role in the network.</p>
+    </div>
+  </aside>
+
+</div>
+
+<script>
+// ── Palettes ──────────────────────────────────────────────────────────────────
+const PALETTES = {
+  type: {
+    "ego":                  "#1A1A1A",
+    "direct_correspondent": "#C0392B",
+    "mentioned_only":       "#5DADE2",
+    "default":              "#9F9F9F"
+  },
+  period: {
+    "european":      "#9B59B6",
+    "chilean":       "#16A085",
+    "united_states": "#D4AC0D",
+    "united states": "#D4AC0D",
+    "2+ periods":    "#9F9F9F",
+    "both":          "#9F9F9F",
+    "unknown":       "#D0CBC4",
+    "default":       "#D0CBC4"
+  },
+  language: {
+    "German":  "#9B59B6",
+    "Spanish": "#16A085",
+    "English": "#D4AC0D",
+    "mixed":   "#9F9F9F",
+    "unknown": "#D0CBC4",
+    "default": "#D0CBC4"
+  },
+  community: [
+    "#E74C3C","#3498DB","#2ECC71","#F39C12","#9B59B6",
+    "#1ABC9C","#E67E22","#34495E","#16A085","#8E44AD",
+    "#D35400","#27AE60","#2980B9","#C0392B","#7F8C8D"
+  ]
+};
+
+const LEGENDS = {
+  type: [
+    { label: "Luis Mitrovic (ego)",  color: "#1A1A1A" },
+    { label: "Direct correspondent", color: "#C0392B" },
+    { label: "Mentioned only",       color: "#5DADE2" },
+  ],
+  period: [
+    { label: "European (1934–1939)",            color: "#9B59B6" },
+    { label: "Chilean (1940–1971 / 1987–2006)", color: "#16A085" },
+    { label: "United States (1972–1986)",        color: "#D4AC0D" },
+    { label: "2+ periods",                       color: "#9F9F9F" },
+    { label: "Unknown / undated",                color: "#D0CBC4" },
+  ],
+  language: [
+    { label: "German",  color: "#9B59B6" },
+    { label: "Spanish", color: "#16A085" },
+    { label: "English", color: "#D4AC0D" },
+    { label: "Mixed",   color: "#9F9F9F" },
+  ],
+  community: [
+    { label: "Communities detected by Louvain (Q=0.33)", color: "#888" }
+  ]
+};
+
+let sigmaInstance = null;
+let graph         = null;
+let currentMode   = "type";
+
+// ── Manual GEXF parser — no external dependency ───────────────────────────────
+function parseGEXF(xmlText) {
+  const parser  = new DOMParser();
+  const xmlDoc  = parser.parseFromString(xmlText, "application/xml");
+
+  // Build attribute id → title map for nodes
+  const nodeAttrMap = {};
+  const edgeAttrMap = {};
+
+  xmlDoc.querySelectorAll('attributes[class="node"] attribute').forEach(a => {
+    nodeAttrMap[a.getAttribute("id")] = a.getAttribute("title") || a.getAttribute("id");
+  });
+
+  xmlDoc.querySelectorAll('attributes[class="edge"] attribute').forEach(a => {
+    edgeAttrMap[a.getAttribute("id")] = a.getAttribute("title") || a.getAttribute("id");
+  });
+
+  // graphology exposes itself as window.graphology on jsdelivr umd build
+  const G = new graphology.Graph({ multi: false, type: "undirected" });
+
+  // Parse nodes
+  xmlDoc.querySelectorAll("nodes node").forEach(nodeEl => {
+    const id    = nodeEl.getAttribute("id");
+    const label = nodeEl.getAttribute("label") || id;
+    const attrs = { label };
+
+    // viz position
+    const vizPos = nodeEl.querySelector("viz\\:position, position");
+    if (vizPos) {
+      attrs.x = parseFloat(vizPos.getAttribute("x")) || Math.random() * 100 - 50;
+      attrs.y = parseFloat(vizPos.getAttribute("y")) || Math.random() * 100 - 50;
+    } else {
+      attrs.x = Math.random() * 100 - 50;
+      attrs.y = Math.random() * 100 - 50;
+    }
+
+    // attvalues
+    nodeEl.querySelectorAll("attvalue").forEach(av => {
+      const key = nodeAttrMap[av.getAttribute("for")] || av.getAttribute("for");
+      attrs[key] = av.getAttribute("value");
+    });
+
+    G.addNode(id, attrs);
+  });
+
+  // Parse edges
+  xmlDoc.querySelectorAll("edges edge").forEach(edgeEl => {
+    const id     = edgeEl.getAttribute("id");
+    const source = edgeEl.getAttribute("source");
+    const target = edgeEl.getAttribute("target");
+    const weight = parseFloat(edgeEl.getAttribute("weight")) || 1;
+    const attrs  = { weight };
+
+    edgeEl.querySelectorAll("attvalue").forEach(av => {
+      const key = edgeAttrMap[av.getAttribute("for")] || av.getAttribute("for");
+      attrs[key] = av.getAttribute("value");
+    });
+
+    if (G.hasNode(source) && G.hasNode(target) && source !== target) {
+      try { G.addEdge(source, target, attrs); } catch(e) { /* skip duplicate */ }
+    }
+  });
+
+  return G;
+}
+
+// ── Visual helpers ────────────────────────────────────────────────────────────
+function getNodeColor(attrs, mode) {
+  if (mode === "type") return PALETTES.type[attrs.nodeType || attrs.type] || PALETTES.type.default;
+  if (mode === "period") {
+    const p = (attrs.period || "").toLowerCase().trim();
+    return PALETTES.period[p] || PALETTES.period.default;
+  }
+  if (mode === "language") return PALETTES.language[attrs.language] || PALETTES.language.default;
+  if (mode === "community") {
+    const mc = parseInt(attrs["Modularity Class"] || attrs.modularity_class, 10) || 0;
+    return PALETTES.community[mc % PALETTES.community.length];
+  }
+  return "#9F9F9F";
+}
+
+function getNodeSize(attrs) {
+  const mentions = parseInt(attrs.mentions, 10) || 1;
+  if (attrs.type === "ego") return 22;
+  return Math.max(5, Math.min(18, 4 + mentions * 0.8));
+}
+
+// ── Mode switching ────────────────────────────────────────────────────────────
+function applyMode(mode) {
+  if (!graph) return;
+  graph.forEachNode((node, attrs) => {
+    graph.setNodeAttribute(node, "color", getNodeColor(attrs, mode));
+  });
+  if (sigmaInstance) sigmaInstance.refresh();
+  updateLegend(mode);
+  document.querySelectorAll(".view-btn").forEach(b => {
+    b.classList.toggle("active", b.dataset.mode === mode);
+  });
+}
+
+function setMode(mode) { currentMode = mode; applyMode(mode); }
+
+function updateLegend(mode) {
+  document.getElementById("legend").innerHTML = (LEGENDS[mode] || []).map(item => `
+    <div class="legend-item">
+      <span class="legend-dot" style="background:${item.color}"></span>
+      <span>${item.label}</span>
+    </div>
+  `).join("");
+}
+
+// ── Node detail ───────────────────────────────────────────────────────────────
+function showNodeDetail(node, attrs) {
+  const typeColor = PALETTES.type[attrs.nodeType || attrs.type] || "#888";
+  const btw = attrs["Betweenness Centrality"] || attrs.betweenesscentrality;
+  const mod = attrs["Modularity Class"] || attrs.modularity_class;
+
+  const rows = [
+    { key: "Type",        val: attrs.nodeType || attrs.type || "—",      badge: typeColor },
+    { key: "Period",      val: attrs.period || "—" },
+    { key: "Language",    val: attrs.language || "—" },
+    { key: "Mentions",    val: attrs.mentions || "—" },
+    { key: "Degree",      val: attrs["Grado"] || attrs.degree || "—" },
+    { key: "Betweenness", val: btw ? parseFloat(btw).toFixed(1) : "—" },
+    { key: "Community",   val: mod !== undefined ? `Class ${mod}` : "—" },
+    { key: "Category",    val: attrs.primary_category || "—" },
+  ];
+
+  const edges = [];
+  graph.forEachNeighbor(node, (neighbor, neighborAttrs) => {
+    const edgeKeys = graph.edges(node, neighbor);
+    const edgeAttrs = edgeKeys.length > 0 ? graph.getEdgeAttributes(edgeKeys[0]) : {};
+    edges.push({
+      label:  neighborAttrs.label || neighbor,
+      weight: parseFloat(edgeAttrs.weight) || 1,
+      type:   edgeAttrs.edge_type || "—"
+    });
+  });
+  edges.sort((a, b) => b.weight - a.weight);
+
+  document.getElementById("node-detail").innerHTML = `
+    <h3>${attrs.label || node}</h3>
+    ${rows.map(r => `
+      <div class="detail-row">
+        <span class="detail-key">${r.key}</span>
+        ${r.badge
+          ? `<span class="badge" style="background:${r.badge}">${r.val}</span>`
+          : `<span class="detail-val">${r.val}</span>`}
+      </div>
+    `).join("")}
+    ${edges.length > 0 ? `
+      <div class="edges-list">
+        <div class="edges-list-title">Connections (${edges.length} total)</div>
+        ${edges.slice(0, 10).map(e => `
+          <div class="edge-item">
+            <span>${e.label}</span>
+            <span class="edge-weight">w=${e.weight} · ${e.type}</span>
+          </div>
+        `).join("")}
+      </div>
+    ` : ""}
+  `;
+}
+
+function clearNodeDetail() {
+  document.getElementById("node-detail").innerHTML =
+    `<p class="detail-empty">Click on a node to see its details, connections, and role in the network.</p>`;
+}
+
+// ── Search ────────────────────────────────────────────────────────────────────
+function searchNode(query) {
+  if (!graph || !sigmaInstance) return;
+  const q = query.toLowerCase().trim();
+  graph.forEachNode((node, attrs) => {
+    graph.setNodeAttribute(node, "hidden",
+      q.length > 0 && !(attrs.label || "").toLowerCase().includes(q));
+  });
+  sigmaInstance.refresh();
+}
+
+// ── Load ──────────────────────────────────────────────────────────────────────
+async function loadGraph() {
+  try {
+    const resp = await fetch("LuisMitrovicNetwork_V4.gexf");
+    if (!resp.ok) throw new Error(`HTTP ${resp.status} — file not found`);
+    const gexfText = await resp.text();
+
+    graph = graphologyGEXF.parse(graphology.Graph, gexfText);
+
+    graph.forEachNode((node, attrs) => {
+      graph.setNodeAttribute(node, "nodeType", attrs.type);
+      graph.setNodeAttribute(node, "size",  getNodeSize(attrs));
+      graph.setNodeAttribute(node, "color", getNodeColor(attrs, "type"));
+      graph.setNodeAttribute(node, "type",  "circle");
+    });
+
+    graph.forEachEdge((edge, attrs) => {
+      const w = parseFloat(attrs.weight) || 1;
+      graph.setEdgeAttribute(edge, "size",  Math.max(0.3, Math.min(3, w * 0.12)));
+      graph.setEdgeAttribute(edge, "color",
+        attrs.edge_type === "epistolary" ? "#C0392B55" : "#88888818");
+    });
+
+    document.getElementById("loading").style.display = "none";
+
+    sigmaInstance = new Sigma(graph, document.getElementById("sigma-container"), {
+      renderEdgeLabels: false,
+      defaultEdgeType:  "line",
+      labelFont:        "system-ui",
+      labelSize:        11,
+      labelWeight:      "600",
+      labelColor:       { color: "#1A1A1A" },
+      minCameraRatio:   0.05,
+      maxCameraRatio:   10,
+    });
+
+    sigmaInstance.on("clickNode", ({ node }) => {
+      showNodeDetail(node, graph.getNodeAttributes(node));
+      const neighbors = new Set(graph.neighbors(node));
+      graph.forEachNode((n) => {
+        graph.setNodeAttribute(n, "highlighted", neighbors.has(n) || n === node);
+      });
+      sigmaInstance.refresh();
+    });
+
+    sigmaInstance.on("clickStage", () => {
+      clearNodeDetail();
+      graph.forEachNode((n) => graph.setNodeAttribute(n, "highlighted", false));
+      sigmaInstance.refresh();
+    });
+
+    updateLegend("type");
+
+  } catch (err) {
+    document.getElementById("loading").innerHTML = `
+      <p style="color:#C0392B;font-size:13px;text-align:center;padding:20px;">
+        Error loading network.<br><br>${err.message}
+      </p>`;
+    console.error(err);
+  }
+}
+
+loadGraph();
+</script>
+</body>
+</html>

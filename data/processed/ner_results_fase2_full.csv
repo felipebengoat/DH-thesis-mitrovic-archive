@@ -1,0 +1,59 @@
+﻿doc_id,Envelope,Language,PER_count,LOC_count,ORG_count,total_entities,PER_list,LOC_list,ORG_list
+S68-003,S68,German,0,2,4,6,,Old Europe;Europe,the Paris Exhibition;British India;HAPAG;N D Lloyd
+S72-003,S72,German,0,2,5,7,,Europe;Rocky Mountains,"the ""Popular Front"";Communist Party;Pepsi;Pepsi;Marks"
+S73-002,S73,German,0,0,0,0,,,
+S76-003,S76,German,0,0,1,1,,,the MS Dresden
+S77-001,S77,German,0,0,1,1,,,Bauhaus
+S78-003,S78,German,0,0,6,6,,,"Radio Paris PTT;WERK;WERK;Swiss Francs;the ""SCHWEIZERISCHE VOLKSBANK;Suisse"
+S79-001,S79,German,0,1,7,8,,Latin America,the Cellulosefabrik Attisholz SA Solothurn;the World Bank;the Cellulose SA;the World Bank;the Cellulosefabrik Attisholz SA;the State Department for Education;Credit Suisse
+S80-003,S80,German,0,1,5,6,,Rhine,the Vereinigte Deutsche Stahlwerke;United German Steel Works;UFA;Fahrenkamp's;Fahrenkamp
+S81-003,S81,German,0,1,3,4,,Villa Serdan,"Locanda;Picasso, Matisse, Hodler, Feuerbach;IL CIMICIAIO"
+S82-003,S82,German,0,0,0,0,,,
+S83-003,S83,German,0,1,9,10,,Africa,Leica;the Ihagee-Werk;Leica;Contax;Zeiss;Zeiss;Harvard;the Schweizerische Bauzeitung;Tonhalle
+S84-002,S84,German,0,0,3,3,,,Contax;Leica;Rollei
+S95-002,S95,German,0,0,1,1,,,Swissair
+S43-003,S43,German,0,1,9,10,,Latin America,the Cellulosefabrik Attisholz SA Solothurn;the World Bank;the Cellulose SA;the World Bank;the Cellulosefabrik Attisholz SA;Bundesrat;the State Department for Education;Graphics/Photography;Credit Suisse
+S67-003,S67,German,0,3,8,11,,Upper Bavaria;Europe;Europe,National Socialists;Rolleiflex & Co.;Bayern Haus;NS;Reichstag;the Conference of Buenos Aires;the League of Nations;NS
+S40-001,S40,Spanish,20,18,4,42,Angela;Lucho;Lima;Etienne;Sr. Clemens Ostendorf;Señora;Etienne;Etienne;Bruno;Etienne;Etienne;Bruno;Etienne;Amelie;Etienne;Mamá;Angela;Angela;Lucho;Etienne,Lima;Perú;Chile;Perú;Lima;Austria;Hamburgo;Hamburgo;Hotel;Austria;Alemania;Carintia;Klagenfurt;Viena;Alemania;Suecia;America Latina;Austria,VW Variant;La Televisión;Radio;Viet Nam
+S41-001,S41,Spanish,24,45,2,71,"Siré
+Tuderschitz;Etienne;Etienne;Mamá;Mamá;Mamá;Mamá;Lima;Mamá;Bruno;Julio;Dios;Mamá;Bruno;Bruno;Bruno;Bruno;Mamá;Pintado;Angela;Lucho;Felices Pascuas;Nora;Etienne",lago Wörthersee;Austria;Carinthia;Kärnten;Italia;Yugoslavia;Austria;Peru;Lima-Miraflores;Lima;Hamburgo;Lima;Europa;Chaclacayo;Lima;casa de mi Mamá;Chaclacayo;Peru;Europa;Caracas;Lisboa;Milano;lago Garda;Austria;Carinthia;Klagenfurt;Carinthia;Tuderschitz;Moosburg;Austria;Peru;Austria;Austriaco;Peruanos;Chaclacayo;Perú;Karawanken;Austria;Italia;Trieste;Lima;Europa;Lima;Miraflores;Europa,"MOOSBURG
+Austria""Föhrenau;Alitalia First"
+S171-003,S171,English,0,0,2,2,,,Fortune Vade;Mae's
+S172-003,S172,English,0,0,1,1,,,Astoreca's
+S173-003,S173,Spanish,18,5,0,23,Darling;Oscar;Oscar;Darling;Darling;Sto;Mamá;Tía Marta;Mamá;Mamá;Mamá;Domingo;Mamá;Pelagia;Jorge Peña;José Manuel Lecaros;Mamá;Angela,Hotel;Algarrobo;Viña el Martes;Asunción;Santiago,
+S174-002,S174,Spanish,23,26,7,56,Darling Lucho;Strib;Pepys;Jenny;Strib;Raúl Vial;Ford Bartlett;Strib;Strib;Consuelo;High Wycombe;Henley;Almorzamos;Strib;Sotheby;Consuelo;Teresa de Avila;Sybil Thorndike;Mamá;Consuelo;Valentina;Mamá;Angela,"Londres;Kew Gardens;Londres;London Tower;Londres;Prospect of Whitby;Green Park;Río de Janeiro;New York;Chile;N.Y.;París;Hotel California Rue de Berri;Oxford;Londres;Oxford;Hotel ""The Sceptre;Oxford;Londres;Christ Church;París;Hotel;París;Santiago;Cerrillos;Teatro Vaudeville",Conservatorio;Pub;Iglesia;Embajada;Consulado de U.S.A.;U.S.A;British Museum
+S174-015,S174,Spanish,31,22,9,62,Consuelo;Raúl Vial;Consuelo;Consuelo;Blaise;Darling;Mamá;Lucho;Lucho;Sorry;Sweetito;Kurcat;Luis Quince;Felipe;Ford;Pascua;Blaise;Anita;Alejandro;Darling;Consuelo;Jan van Eyck;Greco;Holbein;Bergdorf Goodman;Consuelo;Louise and Ford;Pinto;Ford;Panagra;Angela,Londres;Londres;New York;Boston;Santiago;Boston;NY;N.Y.;Cerro Roble;Hotel Park Chambers;West 58th Street;Frick Collection;Salon Room;Hotel;Francia;Bloomingdale's;París;Chile;Time and Life Building;New York;Pascua;Santiago,Lufthansa;Japan Lines;Talaito;Greyhound;New York 19;NY;Telefono Plaza;Guggenheim;Hotel
+S175-002,S175,Spanish,5,24,5,34,Horroroso;Wavis Baylis;Rieseuer;Consuelo;Angela,Admiralty;Trafalgar Square;Waterloo Bridge;Támesis;Temple;Blackfriars Bridge;Saint Paul's Cathedral;Cerca de Saint Paul's;Génova;París;Hotel California 16 Rue de Berri;New York;Chile;Lima;L.A.M.;Cerrillos;Kew Gardens;Hampton Court;París;New York;París;Versalles;Trianon;Ancud,Mall;Strand;Parlament;Wallace Collection;American Express
+S176-002,S176,Spanish,19,10,3,32,Mi Lucho;Burberry;Betty;Bye Bye Birdie;Alegre;Betty;Strib;Mamá;Carozzi;Bueno;Henderson;Bartlett;Mamá;Angela;Strib;Mamá;Luise;Raquel;Angela,Regent's Park;Tasmania;Piccadilly;Londres;Chile;Berkeley Buttery;House of Lords;Gran Bretaña;Thanksgiving al Dorchester;París,W.C.;Express;U.S.A
+S177-002,S177,Spanish,16,13,2,31,Sansevieria;Orly;Orly;Emilio Duhart;Strib;Armagnac;William;Strib;Strib;Mamá;Carmen Amunategui;Rae;Mamá;Betty;Mamá;Angela,Chilean Get;Africa;Mediterráneo;Segovia;Sud Africa;Madrid;Londres;Londres;Westminster Cathedral;Harrods;Londres;Chile;Harrods,Gibraltar;Iglesia
+S178-003,S178,Spanish,27,11,6,44,Sweetito;Tjark;Joy Grimm;Roland Palmedo;Consuelo;Roland;Betsy;Phil;Sra;Phil;Mamá;Consuelo;Raúl Vial;Alexis Smith;Valerie;Bettis;Dick Nelson;Sra;Roland;Bea;Vial;Roland;Ford Bartlett;Blaise;Raúl Vial;Ford Bartlett;Angela,Long Island;Atlanta;Georgia;Boston;Vermont;Londres;Colony;Rendez Vous;Plaza;Worcester;Pascua,Beta;Hotel;Museum of Modern Art;Whitney;Bus;M.I.T.
+S179-003,S179,Spanish,74,35,8,117,Strib;N.;Sotheby;Consuelo;Strib;William;Rossi;Strib;Darling;Bradley's;Dile;Mamá;Goya;Henderson;Encantadores;Christie's;Sotheby;Yardley;Jaeger;Strib;Betty;Henry Young;Tiepolo;Turner;Whistler;Tintoretto;Madonna;Madonna;Holbein;Carlo Crivelli;Raphael;Roble Nelson;Consuelo;Carey Street;Henry Young;Strib;Raúl;Beba Coca Cola;Shirley;Melón;Mr;Mrs;Yaya;Juan Francisco González;Misia Isabel;Yaya;Willitze Bannas;Con;Strib;Bayles;Ford Bartlett;Talaito;Felipe;Jaeger;Simpsons;Strib;Del Tate;Epstein;Oliver;Oliver Twist;Dickens;Río;Mamás;Luisa;Raquel;Mamá;Pichidangui;Consuelo;Strib;Oliver;Consuelo;Mamá;Con;Angela,París;York;Paris;Darling;Chelsey;Londres;Old Bond Street;Regent Street;Chile;Suecia;París;New York;New York;Roma;National Gallery;St Catherine of Alexandria;Downing Street;Westminster Abbey;Londres;Buckingham Palace;Trafalgar Square;Londres;Londres;Bruselas;Mayorca;Virginia;Regent Street;París;Santiago;Regent Street;Harrods;Saint James Palace;Saint James Park;Tate;Embankment,London S.W.I;Chase Manhattan Bank;Teatro;Pub;Caledonian Market;Vogue;N° 10;Tate Gallery
+S174-010,S174,Spanish,32,12,4,48,Dear Angela Darling;Consuelo;Luisa;Raquel;Ford Bartlett;Ernesto Pinto;Ford;E. Pinto;Alexander;Bro Alan;Domingo;Cerrillos;Phillips;Luis Oyarzun;Manuel Gutiérrez;Marichen;Jorge Arteaga;Patricio Santander;Patricio;Patricio;Misia Anita Lyon;Helen Wessel;Luis José Santa María;Juanita Sanoli;Carmen Marín;Fdo;Marsha;Lalo Frias;Saint;Eliana Ward...todos;Strib;Lucho,Santiago;París;Roma;New York;New York;Río;San Juan de Pirque;Julita Cuevas;Santo Domingo;Burgos;Texas;Cerrillos,OBRAS PUBLICAS;Housing Development;Fa;Radio Patrulla
+S105-001,S105,Spanish,6,15,1,22,Bamiyan;Balkh;Alejandro el Grande;Genghis Khan;Strib;Lucho,"Hotel Inter-Continental Kabul
+Bag;Bala Road;Kabul;Afghanistan;Washington;Kabul;Santiago;Pamir;Asia;Asia Menor;Europa;valle Bamiyan;Beirut;Kabul;Washington",U.S.A.
+S202-001,S202,English,0,17,1,18,,Northern Chile;Pan de Azucar;the Pacific Ocean;Pacific;Humbolt;Pan de Azucar;a National Fauna;Flora Preservation Park;Andes;the South Lake District;Lake Villarrica;Lake Rupanco;South;Volcano Villarrica;Rupanco Volcano Osorno;Cerro Punteagudo;Dolomites,Chevrolet
+S104-003,S104,English,0,0,2,2,,,ILA;ILA
+S197-003,S197,English,0,1,0,1,,Keukenhof,
+S198-003,S198,English,0,1,5,6,,Europe,the British Royal Air Force;KLM;Cessna's;Frasca;American
+S199-003,S199,English,0,1,1,2,,Europe,Sony Videocamera
+S200-003,S200,English,0,2,3,5,,Europe;Europe,KLM;Christian Society;KLM
+S113-003,S113,Spanish,7,5,1,13,"Señor
+Luis Mitrovich;Querido Lucho;Mil;Diaz Casanueva;Ministro Ross;Adiós;Gonzalo",Hamburg;Viena;Chile;Chile;Chile,Consulado
+S114-003,S114,Spanish,3,3,6,12,Señor Don Luis Mitrovich;Álvarez;Gonzalo,Jena;Weimar;Jena,Ministerio de Educación de Chile;Ministerio de Educación;Ministerio de Hacienda;Contraloría Nacional;Universidad;Gobierno de Chile
+S115-003,S115,Spanish,7,5,4,16,Díaz Casanueva;Díaz;Navarro;Ministro de Hacienda;Grove;Gonzalo;Prof,Chile;París;Chile;Chile;Chile,P. Radical;Mov;Nacionalsocialista;Partido
+S116-003,S116,Spanish,6,2,2,10,Querido Lucho;Álvarez;Dios;Rector;Álvarez;Gonzalo,Jena;Jena,Rector;Universidad
+S117-003,S117,Spanish,7,9,8,24,"Querido Mitrovich;Ud;Registermark;Gonzalo
+Si;Suceso;Zig-Zag;Perdone",Jena;Weimar;Turingia;Baviera;Weimar;Jena;Victoria;Alemania;Austria,Ud.;Ud;Ud;Ud;Ud;Ud;Ud;Ud.
+S61-002,S61,Spanish,9,15,2,26,Chiomüller;Vd.;Ski;Schiller;Goethe;Saalbach;Alfonso;don Antonio;J. Hübner,Salzburg;München;Varsovia;CHILE;Chile;Chile;Viena;Japon;Chile;Weimar;Varsovia;Chile;Egipcia;ABISINIA;CHILE,München;Salzburg
+S122-003,S122A,Spanish,8,9,2,19,"Querido Chiemüller;Alberto;General Novoa;Alessandri;Mocicki;Herrn Alfonso;S.S.;A.
+Jorge Hübner",Varsovia;Alemania;Viena;Alemania;Polonia;Chile;Santiago;calle Ahumada;Chile,Austria;Polonia
+S58-002,S58,Spanish,2,1,0,3,Zoppot;Tunes,Varsovia,
+S64-002A,S64A,Spanish,2,4,0,6,Recordado Chicmüllers;Jorge Hübner Gallo,Varsovia;Chile;Weimar;Varsovia,
+S64-002B,S64B,Spanish,3,6,2,11,Chick;Escríbame;Jorge Hübner B.,Varsovia;Viena;Chile;Chile;Viena;Alemania,Ud;Ud
+S122-006,S122B,Spanish,2,0,1,3,Chick Müller;Ofelia,,Ud
+S53-001,S53,Spanish,16,6,5,27,Lucho;De Amelia;tía Lucía;tía Ita;E°;Ita;tía Ita;tía Ita;Ita;Georginita;Saintclaire;Georginita;Mamá Inés;Herminda;Rosmary;Ximena,Santiago;Georginita;Ñuñoa;Casablanca;Pirámides;Curacaví,Georginita;Ministerio de Defensa;Chilectra;Georginita;Sylviana
+S55-003,S55,Spanish,8,6,3,17,Mario Barriga;Sra;Fránica;Santiago;Mario Pérez de Arce;A. Errázuriz;Lalo;Cucho,Santiago 6;Sra. Fránica;Alemana;Viña;Santiago;Calculista,Cía;Cerrajería;Benders
+S122-007,S122C,Spanish,8,16,4,28,"Señor Jorge Hübner
+Varsovia;Preciosa;Doctor Pangloss;Santiago;Doctor;Ofelia;S.;G Diaz",Santiago;Santiago;Villa del Huelen;San Cristóbal;Alameda;Santa Bárbara;Suiza;Reino de Pluto;Zurich;Santiago;Chañaral;Viña del Mar;Santiago;calle Bilbao;esquina Román Díaz;Señora Dallera,Correo 15;Caja de Crédito Minero;Salado;Ud
+S44-002,S44,Spanish,8,6,0,14,"Dear Lucho;Ana María;Dios;Valeria;Fernando;Hugh Stubbins;Ana María;Miglia
+Fernando",Newton;old Victorian;Los Angeles;Florida;Cambridge;Cambridge,

@@ -1,0 +1,21 @@
+letter_id,title,year,from_person,to_person,PER_count,PER_list,LOC_count,LOC_list,ORG_count,ORG_list,total_entities
+letter-S10,Carta S10,1937,O. B. Y.,Luis Mitrovic Puljizević,0,,3,Viena;Europa;Chile,1,Academia de Bellas Artes,4
+letter-S11,Carta S11,1937,Luis Arteaga,Luis Mitrovic Balbontín,2,Luis Arteaga;Arturo Donoso,1,Viena,0,,3
+letter-S125,Carta S125,1936,Winold Tjark Reiss,Luis Mitrovic Balbontín,3,Winold;Franz;Erick,5,Italy;England;Spain;France;Vienna,0,,8
+letter-S128,Carta S128,1938,Winold Tjark Reiss,Luis Mitrovic Balbontín,2,Nora;Franz,6,USA;Santiago;Paris;New York;Chile;Vienna,0,,8
+letter-S129,Carta S129,1939,Winold Tjark Reiss,Luis Mitrovic Balbontín,2,Tjark;Bruce Gimbel,4,Germany;Italy;New York;Chile,1,National Geographic,7
+letter-S3,Carta S3,1900,Desconocido,Desconocido,6,José Moreno;Alejandro Magno;Darius;Marco Polo;Zarathustra;Gengis Kan,15,Rusia;India;Hindu Kush;Afganistán;Andes;Roma;Irán;Afghanistan;Egipto;Europa;Chile;Himalayas;Kabul;China;Paquistán,2,Asociación de Fotógrafos;Banco Mundial,23
+letter-S34,Carta S34,1941,Geo. H. Watson,Luis Mitrovic Balbontín,0,,2,Roma;Chile,1,Chilean Ski Team,3
+letter-S35,Carta S35,1941,"John Jay
+c/o Francis Boardman",Luis Mitrovic Balbontín,5,Deborah Bankart;Patty;Julio;Jaime;Frankie,3,Santiago;New York;Chile,0,,8
+letter-S37,Carta S37,1943,Nora,Luis Mitrovic Balbontín,3,Cucho;Nora;Mary,0,,0,,3
+letter-S38,Carta S38,1943,Luis Mitrovic Balbontín,Nora,5,Tjark;Sergio Larraín;Mary;Nora;Angela,2,Santiago;England,0,,7
+letter-S39,Carta S39,1943,Nora,Luis Mitrovic Balbontín,4,Mary;Nora;Tjark;Angela,2,London;Chile,0,,6
+letter-S4,Carta S4,1900,Luis Mitrovic Balbontín,Desconocido,3,Zarathustra;Darius;Shah Abbas,15,Sidon;Lebanon;Isphahan;Isfahan;Bekaa Valley;Austria;Iran;Roma;Pakistan;Tyr;Baalbek;Rome;Persepolis;Afghanistan;Himalayas,1,World Bank,19
+letter-S42,Carta S42,1999,Nora,Luis Mitrovic Balbontín,2,Nora;Angela,0,,0,,2
+letter-S48,Carta S48,1951,Roland Palmedo,Luis Mitrovic Balbontín,0,,0,,0,,0
+letter-S5,Carta S5,1900,Desconocido,Luis Mitrovic Balbontín,2,Nora;Shah Abbas,2,Isfahan;Iran,0,,4
+letter-S52,Carta S52,1999,Harriet and Don,Luis Mitrovic Balbontín,0,,0,,0,,0
+letter-S6,Carta S6,1976,Luis Mitrovic Balbontín,Desconocido,0,,4,USA;Paris;Roma;Rome,0,,4
+letter-S7,Carta S7,1976,Luis Mitrovic Balbontín,Chip Harkness,0,,1,Roma,0,,1
+letter-S8,Carta S8,1977,Luis Mitrovic Balbontín,Lem Bottoms,0,,1,Lebanon,1,World Bank,2

@@ -1,0 +1,13 @@
+Model,Letter,Precision,Recall,F1
+Stanza,Letter 1 (S54),0.79,0.86,0.83
+Stanza,Letter 2 (S35),0.73,0.75,0.74
+Stanza,Average,0.75,0.79,0.77
+spaCy,Letter 1 (S54),0.6,0.68,0.64
+spaCy,Letter 2 (S35),0.53,0.53,0.53
+spaCy,Average,0.56,0.59,0.57
+BERT-NER,Letter 1 (S54),0.5,0.5,0.5
+BERT-NER,Letter 2 (S35),0.79,0.61,0.69
+BERT-NER,Average,0.66,0.57,0.61
+XLM-RoBERTa,Letter 1 (S54),0.93,0.64,0.76
+XLM-RoBERTa,Letter 2 (S35),0.84,0.44,0.58
+XLM-RoBERTa,Average,0.88,0.52,0.65

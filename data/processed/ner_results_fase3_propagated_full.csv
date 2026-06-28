@@ -1,0 +1,175 @@
+﻿Envelope,Filename,Language,category,include_in_network,PER_list,LOC_list,ORG_list,PER_count,PER_stanza,PER_propagated,LOC_count,ORG_count,total_entities
+S3,MITRO3-S3-DOC-001,Spanish,non_epistolary_authored,yes,José Moreno;Darío I;Alejandro Magno;Gengis Kan;Marco Polo;Darius I;Alejandro,"Irán;IRÁN;RUSIA;Himalayas;Andes;Dahmorabi;Mundiga;Rusia;China;Egipto;Europa;Afganistán;Indo;China;Roma;Bamian;Asia;Europa;China;Afghanistan;Asia;Mazar i Sharif;Kabul;Kunduz;Salang;Templo de Hazrat Ali;A.D.
+Balkh;Alejandro Magno;Afganistán;Kabul;Paquistan;Kulu",Asociación de Fotógrafos Independientes de Chile;Afghanistan;Paquistán;India;Afghanistan;Banco Mundial;Sociedad;Dahmorabi;Zarathustra;China;A.C.;AC;DC Gengjis Jagn,7,6,1,32,13,52
+S4,MITRO3-S4-DOC-001,English,non_epistolary_authored,yes,Alexander The Great;May,North;the HINDUKUSH MOUNTAIN;Himalayas;OXUS;Indus;Oxus;East;BACTRIA;the East Trans Oxiana;the IRAN Plateau;the Indus River;West;West;the SHIBAR PASS;the KHYBER PASS;the SALANG PASS;NURISTAN;Jupiter;Mercury;Venus;JUPITER,THE WORLD BANK;The Consumer Economy;MOHENJODARO;HARRAPA;ARIANS;Agriculture;the Vedic Arians;TRADE;Caesars;Moguls;the Achaemenid Distany;Sasanida's 270 AD;BACCKUS,2,0,2,21,13,36
+S5,MITRO3-S5-DOC-001,English,non_epistolary_collected,no,,,IRAN TRAVEL INC;Daily Sightseeing Group Tours;De lux;8- Vank Church;The Armenian Museum;The Theological School;the School of Theology,0,0,0,0,7,7
+S6,MITRO3-S6-DOC-001,English,non_epistolary_authored,yes,Greco;May,Wadi;Basin;Siq;Siq;the Wadi Musa;North-east;Southeast;the Zebb' Atuf;Okelisk Mount;Nabataean Kings;Wadi Musa;Basin;Mount Hor;Deir;the Red Sea;the Wadi Musa;Chrysorrhoas;the Golden River;Romans;Greco-Roman city,Nabaeans;Crusaders;the Trans-Jordan Government;Corinthian;the Great Temple of Artemis;Crusaders;the Cambridge Public Library,2,0,2,20,7,29
+S7,MITRO3-S7-DOC-001,English,institutional_letter,yes,,Wadi;Basin;Basin;Wadi,Jerash Project;PETRA;IBRD;Project Management;Unesco;Project Management;Government;IBRD;Unesco;Unesco;Unesco;the Project Management;Unesco;the Project Management,0,0,0,4,14,18
+S8,MITRO3-S8-DOC-001,English,institutional_letter,yes,,,Tourism Projects Department;The World Bank;Bank,0,0,0,0,3,3
+S10,MITRO3-S10-CARTA-001,Spanish,institutional_letter,yes,Luis;Profesor;Behrens;Señora;Ud;Señora;Luis,Viena;Bremen;Chile;Europa,Academia de Bellas Artes;Ud,7,7,0,4,2,13
+S11,MITRO3-S11-CARTA-003,Spanish,institutional_letter,yes,Arquitecto;Arturo Donoso;S.S.;Luis Arteaga G.;Luis,Viena;Frigorífico de Talcahuano,Ministerio;Ud;Ministerio;Ud;Nº 77,5,4,1,2,5,12
+S129,MITRO3-S129-CARTA-003,English,personal_letter,yes,May,South America;Europe;South America,the Chilean Government;the National Geographic;the World’s Fair,1,0,1,3,3,7
+S128,MITRO3-S128-CARTA-003,English,personal_letter,yes,Santiago;May,Sun Valley;Europe;europe;europe,Packard;Afidavits;The World’s Fair,2,0,2,4,3,9
+S125,MITRO3-S125-CARTA-003,English,personal_letter,yes,Luis;May,Europe,Zeiss Contax,2,0,2,1,1,4
+S38,MITRO3-S38-CARTA-001,English,personal_letter,yes,Santiago;Angela;May,,,3,0,3,0,0,3
+S39,MITRO3-S39-CARTA-003,English,personal_letter,yes,Angela;May,,,2,0,2,0,0,2
+S34,MITRO3-S34-CARTA-002,English,institutional_letter,yes,May,,Chilean Ski Team;the Great American Prospectors Association;Society;the Great American Prospectors Association;Alta United Mines Company,1,0,1,0,5,6
+S35,MITRO3-S35-CARTA-003,English,personal_letter,yes,Santiago;Julio,Cape Cod;Sun Valley;Yosemite,the Hanover Ski School;The Rockefeller Committee;Los Camp Followers,2,0,2,3,3,8
+S37,MITRO3-S37-CARTA-003,English,personal_letter,yes,Cucho,,,1,0,1,0,0,1
+S42,MITRO3-S42-CARTA-003,English,personal_letter,yes,Angela;May,,the Red Cross Ambulance,2,0,2,0,1,3
+S48,MITRO3-S48-CARTA-003,English,personal_letter,yes,Phil,,,1,0,1,0,0,1
+S52,MITRO3-S52-CARTA-003,English,personal_letter,yes,,Northeast,The Republican Congress,0,0,0,1,1,2
+S130,MITRO3-S130-CARTA-002,English,personal_letter,yes,,La Merced;Andes;Pampas,Ford;S.A.;the Cullen Bank,0,0,0,3,3,6
+S131,MITRO3-S131-CARTA-003,English,personal_letter,yes,Santiago;May,the St. of Magellan;Europe;the Marija Račić;Acropolis;Andes;Andes,Argentines Consulate;S.A.;Consul;the Yugoslav Lloyd;Company;RAB;Delphi;S.A.,2,0,2,6,8,16
+S132,MITRO3-S132-CARTA-003,English,personal_letter,yes,Santiago;May,Europe,Argentine Consulate,2,0,2,1,1,4
+S133,MITRO3-S133-CARTA-001,English,personal_letter,yes,Luis,,,1,0,1,0,0,1
+S134,MITRO3-S134-CARTA-003,English,personal_letter,yes,Angela;May,Northern California,Army;Academy,2,0,2,1,2,5
+S135,MITRO3-S135-CARTA-001,English,personal_letter,yes,,,,0,0,0,0,0,0
+S139,MITRO3-S139-CARTA-001,English,personal_letter,yes,,Europe,Yugoslav Lloyd;the American Consulate,0,0,0,1,2,3
+S150,MITRO3-S150-CARTA-003,English,personal_letter,yes,Cucho;May,,,2,0,2,0,0,2
+S151,MITRO3-S151-CARTA-003,English,personal_letter,yes,Santiago;Cucho,,,2,0,2,0,0,2
+S157,MITRO3-S157-CARTA-003,English,personal_letter,yes,Santiago;Angela;John,Orient,Grand Circle Tours;Northwest Airlines,3,0,3,1,2,6
+S157,MITRO3-S157-CARTA-005,English,personal_letter,yes,Santiago;Angela,South of Chile,,2,0,2,1,0,3
+S157,MITRO3-S157-CARTA-006,English,personal_letter,yes,,,,0,0,0,0,0,0
+S157,MITRO3-S157-CARTA-008,English,personal_letter,yes,Santiago,,,1,0,1,0,0,1
+S157,MITRO3-S157-CARTA-007,English,personal_letter,yes,Angela,,,1,0,1,0,0,1
+S158,MITRO3-S158-CARTA-003,English,personal_letter,yes,,,The Argentine Consulate;the American Legation and Consulate;Consulate;the U.S. Consulate;the Argentine Consulate;the Argentine Consulate;the Norddeutscher Lloyd,0,0,0,0,7,7
+S159,MITRO3-S159-CARTA-003,English,personal_letter,yes,,Andes,,0,0,0,1,0,1
+S160,MITRO3-S160-CARTA-001,English,personal_letter,yes,Santiago,the Lago Titicaca;Titicaca;MACHU PICCHU,,1,0,1,3,0,4
+S161,MITRO3-S161-CARTA-003,English,personal_letter,yes,,Europe,Time Magazine;New York State Architects,0,0,0,1,2,3
+S162,MITRO3-S162-CARTA-001,English,personal_letter,yes,Luis,,VW,1,0,1,0,1,2
+S163,MITRO3-S163-CARTA-001,English,personal_letter,yes,,,VW,0,0,0,0,1,1
+S164,MITRO3-S164-CARTA-001,English,personal_letter,yes,Angela;May,,,2,0,2,0,0,2
+S171,MITRO3-S171-CARTA-003,English,personal_letter,yes,Rale Vesa de Brown;Betty Schönmeyer;Fortune Vade;Sergio Matta;Negra Walker;Jorge Opazo;Cota Vicuña;Santiago;Consuelo;Marcos;Angela;Tibe;Mae,,Fortune Vade;Mae's,13,0,13,0,2,15
+S172,MITRO3-S172-CARTA-003,English,personal_letter,yes,Pato Casanueva;Ines Correa;Antonio;Angela;Matuco;May,,Astoreca's,6,0,6,0,1,7
+S173,MITRO3-S173-CARTA-003,Spanish,personal_letter,yes,Darling;Oscar;Oscar;Darling;Darling;Sto;Mamá;Tía Marta;Mamá;Mamá;Mamá;Domingo;Mamá;Pelagia;Jorge Peña;José Manuel Lecaros;Mamá;Angela;Santiago,Hotel;Algarrobo;Viña el Martes;Asunción;Santiago,,19,18,1,5,0,24
+S174,MITRO3-S174-CARTA-002,Spanish,personal_letter,yes,Darling Lucho;Strib;Pepys;Jenny;Strib;Raúl Vial;Ford Bartlett;Strib;Strib;Consuelo;High Wycombe;Henley;Almorzamos;Strib;Sotheby;Consuelo;Teresa de Avila;Sybil Thorndike;Mamá;Consuelo;Valentina;Mamá;Angela;Santiago,"Londres;Kew Gardens;Londres;London Tower;Londres;Prospect of Whitby;Green Park;Río de Janeiro;New York;Chile;N.Y.;París;Hotel California Rue de Berri;Oxford;Londres;Oxford;Hotel ""The Sceptre;Oxford;Londres;Christ Church;París;Hotel;París;Santiago;Cerrillos;Teatro Vaudeville",Conservatorio;Pub;Iglesia;Embajada;Consulado de U.S.A.;U.S.A;British Museum,24,23,1,26,7,57
+S174,MITRO3-S174-CARTA-010,Spanish,personal_letter,yes,Dear Angela Darling;Consuelo;Luisa;Raquel;Ford Bartlett;Ernesto Pinto;Ford;E. Pinto;Alexander;Bro Alan;Domingo;Cerrillos;Phillips;Luis Oyarzun;Manuel Gutiérrez;Marichen;Jorge Arteaga;Patricio Santander;Patricio;Patricio;Misia Anita Lyon;Helen Wessel;Luis José Santa María;Juanita Sanoli;Carmen Marín;Fdo;Marsha;Lalo Frias;Saint;Eliana Ward...todos;Strib;Lucho;Eliana Ward;Anita Lyon;Santiago;Angela,Santiago;París;Roma;New York;New York;Río;San Juan de Pirque;Julita Cuevas;Santo Domingo;Burgos;Texas;Cerrillos,OBRAS PUBLICAS;Housing Development;Fa;Radio Patrulla,36,32,4,12,4,52
+S174,MITRO3-S174-CARTA-015,Spanish,personal_letter,yes,Consuelo;Raúl Vial;Consuelo;Consuelo;Blaise;Darling;Mamá;Lucho;Lucho;Sorry;Sweetito;Kurcat;Luis Quince;Felipe;Ford;Pascua;Blaise;Anita;Alejandro;Darling;Consuelo;Jan van Eyck;Greco;Holbein;Bergdorf Goodman;Consuelo;Louise and Ford;Pinto;Ford;Panagra;Angela;Santiago;Louise;Luis,Londres;Londres;New York;Boston;Santiago;Boston;NY;N.Y.;Cerro Roble;Hotel Park Chambers;West 58th Street;Frick Collection;Salon Room;Hotel;Francia;Bloomingdale's;París;Chile;Time and Life Building;New York;Pascua;Santiago,Lufthansa;Japan Lines;Talaito;Greyhound;New York 19;NY;Telefono Plaza;Guggenheim;Hotel,34,31,3,22,9,65
+S175,MITRO3-S175-CARTA-002,Spanish,personal_letter,yes,Horroroso;Wavis Baylis;Rieseuer;Consuelo;Angela;Saint,Admiralty;Trafalgar Square;Waterloo Bridge;Támesis;Temple;Blackfriars Bridge;Saint Paul's Cathedral;Cerca de Saint Paul's;Génova;París;Hotel California 16 Rue de Berri;New York;Chile;Lima;L.A.M.;Cerrillos;Kew Gardens;Hampton Court;París;New York;París;Versalles;Trianon;Ancud,Mall;Strand;Parlament;Wallace Collection;American Express,6,5,1,24,5,35
+S176,MITRO3-S176-CARTA-002,Spanish,personal_letter,yes,Mi Lucho;Burberry;Betty;Bye Bye Birdie;Alegre;Betty;Strib;Mamá;Carozzi;Bueno;Henderson;Bartlett;Mamá;Angela;Strib;Mamá;Luise;Raquel;Angela,Regent's Park;Tasmania;Piccadilly;Londres;Chile;Berkeley Buttery;House of Lords;Gran Bretaña;Thanksgiving al Dorchester;París,W.C.;Express;U.S.A,19,19,0,10,3,32
+S177,MITRO3-S177-CARTA-002,Spanish,personal_letter,yes,Sansevieria;Orly;Orly;Emilio Duhart;Strib;Armagnac;William;Strib;Strib;Mamá;Carmen Amunategui;Rae;Mamá;Betty;Mamá;Angela,Chilean Get;Africa;Mediterráneo;Segovia;Sud Africa;Madrid;Londres;Londres;Westminster Cathedral;Harrods;Londres;Chile;Harrods,Gibraltar;Iglesia,16,16,0,13,2,31
+S178,MITRO3-S178-CARTA-003,Spanish,personal_letter,yes,Sweetito;Tjark;Joy Grimm;Roland Palmedo;Consuelo;Roland;Betsy;Phil;Sra;Phil;Mamá;Consuelo;Raúl Vial;Alexis Smith;Valerie;Bettis;Dick Nelson;Sra;Roland;Bea;Vial;Roland;Ford Bartlett;Blaise;Raúl Vial;Ford Bartlett;Angela;Georginita,Long Island;Atlanta;Georgia;Boston;Vermont;Londres;Colony;Rendez Vous;Plaza;Worcester;Pascua,Beta;Hotel;Museum of Modern Art;Whitney;Bus;M.I.T.,28,27,1,11,6,45
+S179,MITRO3-S179-CARTA-003,Spanish,personal_letter,yes,Strib;N.;Sotheby;Consuelo;Strib;William;Rossi;Strib;Darling;Bradley's;Dile;Mamá;Goya;Henderson;Encantadores;Christie's;Sotheby;Yardley;Jaeger;Strib;Betty;Henry Young;Tiepolo;Turner;Whistler;Tintoretto;Madonna;Madonna;Holbein;Carlo Crivelli;Raphael;Roble Nelson;Consuelo;Carey Street;Henry Young;Strib;Raúl;Beba Coca Cola;Shirley;Melón;Mr;Mrs;Yaya;Juan Francisco González;Misia Isabel;Yaya;Willitze Bannas;Con;Strib;Bayles;Ford Bartlett;Talaito;Felipe;Jaeger;Simpsons;Strib;Del Tate;Epstein;Oliver;Oliver Twist;Dickens;Río;Mamás;Luisa;Raquel;Mamá;Pichidangui;Consuelo;Strib;Oliver;Consuelo;Mamá;Con;Angela;St Catherine of Alexandria;Santiago;Isabel;Saint,París;York;Paris;Darling;Chelsey;Londres;Old Bond Street;Regent Street;Chile;Suecia;París;New York;New York;Roma;National Gallery;St Catherine of Alexandria;Downing Street;Westminster Abbey;Londres;Buckingham Palace;Trafalgar Square;Londres;Londres;Bruselas;Mayorca;Virginia;Regent Street;París;Santiago;Regent Street;Harrods;Saint James Palace;Saint James Park;Tate;Embankment,London S.W.I;Chase Manhattan Bank;Teatro;Pub;Caledonian Market;Vogue;N° 10;Tate Gallery,78,74,4,35,8,121
+S57,MITRO3-S57-CARTA-002,German,professional_letter,yes,,,the Master's Course;The Federal Ministry of Education;the Academic Professors' College,0,0,0,0,3,3
+S54A,MITRO3-S54-CARTA-003-,English,institutional_letter,yes,Luis,,Bankers';BABURIZZA & COMPANY LTD.;JSW/WH,1,0,1,0,3,4
+S54B,MITRO3-S54-CARTA-004,English,institutional_letter,yes,Luis,,SI/WH,1,0,1,0,1,2
+S59A,MITRO3-S59-CARTA-002,German,institutional_letter,yes,John,,"John Grisar
+EBERS & Co.
+Division HENGSTENBERG SCHULZ & Co.;the Academic Foreign Office Charlottenburg e.V.",1,0,1,0,2,3
+S59B,MITRO3-S59-CARTA-003,German,institutional_letter,yes,May,,the Secretariat of the Technical University Berlin;Diplom-Ingenieur;Technical University,1,0,1,0,3,4
+S60,MITRO3-S60-CARTA-002,German,institutional_letter,yes,John,,Reichsmark;Registered Mark,1,0,1,0,2,3
+S61,MITRO3-S61-CARTA-002,Spanish,personal_letter,yes,Chiomüller;Vd.;Ski;Schiller;Goethe;Saalbach;Alfonso;don Antonio;J. Hübner;Antonio,Salzburg;München;Varsovia;CHILE;Chile;Chile;Viena;Japon;Chile;Weimar;Varsovia;Chile;Egipcia;ABISINIA;CHILE,München;Salzburg,10,9,1,15,2,27
+S62,MITRO3-S62-CARTA-001,Spanish,personal_letter,yes,Luis;Irarrazaval;Papá;Blanquita,Antofagasta;Europa,Ud;National Geographic Magazine,4,4,0,2,2,8
+S63,MITRO3-S63-CARTA-001,German,institutional_letter,yes,Luis,,the Technical University of Vienna;Rectorate,1,0,1,0,2,3
+S68,MITRO3-S68-CARTA-003,German,personal_letter,yes,,Old Europe;Europe,the Paris Exhibition;British India;HAPAG;N D Lloyd,0,0,0,2,4,6
+S72,MITRO3-S72-CARTA-003,German,personal_letter,yes,Miss Bodenhausen;Frau Richard;Frau Gräfin;Miss Reiche;Frau Reuter;Miss Vogel;Häussler;Norkauer;Schulze;Giesler;Beate;Pepsi;John;Luis;May,Europe;Rocky Mountains,"the ""Popular Front"";Communist Party;Pepsi;Pepsi;Marks",15,0,15,2,5,22
+S73,MITRO3-S73-CARTA-002,German,personal_letter,yes,Spengemann;Luis,,,2,0,2,0,0,2
+S76,MITRO3-S76-CARTA-003,German,personal_letter,yes,Rolf Altenburger;John Dijkstra;Santiago;Luis;Pia,,the MS Dresden,5,0,5,0,1,6
+S77,MITRO3-S77-CARTA-001,German,personal_letter,yes,Wassily Kandinsky;Frau Avenarius;Pepi zu Dohna;Frau Gräfin;Paul Klee;Bubi Laub;Debussy;Ravel;John,,Bauhaus,9,0,9,0,1,10
+S78,MITRO3-S78-CARTA-003,German,personal_letter,yes,Echenique;Santiago;Grieg,,"Radio Paris PTT;WERK;WERK;Swiss Francs;the ""SCHWEIZERISCHE VOLKSBANK;Suisse",3,0,3,0,6,9
+S79,MITRO3-S79-CARTA-001,German,personal_letter,yes,Rolf Altenburger;Schmidheiny;Marc Rich;Santiago;Bastian;Pia;Tim,Latin America,the Cellulosefabrik Attisholz SA Solothurn;the World Bank;the Cellulose SA;the World Bank;the Cellulosefabrik Attisholz SA;the State Department for Education;Credit Suisse,7,0,7,1,7,15
+S80,MITRO3-S80-CARTA-003,German,personal_letter,yes,Mies van der Rohe;Rolf Altenburger;Miss Italia;Petersen;Erfurt;Luis;May,Rhine,the Vereinigte Deutsche Stahlwerke;United German Steel Works;UFA;Fahrenkamp's;Fahrenkamp,7,0,7,1,5,13
+S81,MITRO3-S81-CARTA-003,German,personal_letter,yes,Spengemann;Feuerbach;Picasso;Matisse;Hodler,Villa Serdan,"Locanda;Picasso, Matisse, Hodler, Feuerbach;IL CIMICIAIO",5,0,5,1,3,9
+S82,MITRO3-S82-CARTA-003,German,personal_letter,yes,Rolf Altenburger,,,1,0,1,0,0,1
+S83,MITRO3-S83-CARTA-003,German,personal_letter,yes,Arthur Honegger;Raoul Kochalski;Gaspar Cassadó;Chopin;Luis;May,Africa,Leica;the Ihagee-Werk;Leica;Contax;Zeiss;Zeiss;Harvard;the Schweizerische Bauzeitung;Tonhalle,6,0,6,1,9,16
+S84,MITRO3-S84-CARTA-002,German,personal_letter,yes,Mr. Brown,,Contax;Leica;Rollei,1,0,1,0,3,4
+S87,MITRO3-S87-DOC-003,Spanish,personal_letter,yes,"Señor
+LUIS;Graefin zu Dohne;Querido Luchito;Arturo Junge;Edgar Jensen;Friedrich Vorwerk;Oscar Zirpel;Güldemeister & Co.;De José Ballivian;Irmgard Weinreich de Schmidt;Hilma Weisser de Holz;Edith von Doehren de Jux;Kaethe Reichard;Adriana Barahona de Valck;Edith Hucke;Else von Holleben;Edith Junge;Dr. Haehnert;Director del Deutsche Schule;Dr. Ruehle;Dr. Schroeter;señor Buenger;Winkelmann;Oberstudiendirektor Erwin Winkelmann;Jaenichen;Winkelmann;Berlín-Steglitz Schildhornstrasse;bei Topp;Paul Richard Laudien;Rector de la Fundación Santa María;Luchito;Friedrich Oetzmann;Oberschulrat Erwin Winkelmann Koblenz;Oscar;Luis","Valparaíso;B.
+Weimar
+Am Horn;Alemania;Europa;Inglaterra;Francia;Chile;Europa;Chile;New York;Ámsterdam;Puerto Montt;Puerto Aysén;Valparaíso;Concepción;Europa;Alemania;Alemania;Alemania;Valparaíso;Chile;Alemania;Alemania;Ciudad de México;Alemania;SIMMERN;Berlín;Zuerich","Alemania;Fundación Federico Santa María;Institución;Banco
+Alemán Transatlántico;Banco;Banco;Bolsas de Londres;Colegio Alemán;Hunsrueck;Realgymnasium;Fundación Federico Santa María;Langmauerstrasse 65;Provinzialschulkollegium",35,33,2,28,13,76
+S88,MITRO3-S88-DOC-001,German,non_epistolary_collected,yes,,Adriatic;Ionian;Aegean Seas;Mediterranean,,0,0,0,4,0,4
+S89,MITRO3-S89-CARTA-001,English,institutional_letter,yes,Alexander Popp;Santiago;Luis,,Academie der Bildenden Künste;the Academy of Vienna,3,0,3,0,2,5
+S90A,MITRO3-S90-CARTA-002,German,professional_letter,yes,Santiago;Luis;May,,,3,0,3,0,0,3
+S90B,MITRO3-S90-CARTA-003,German,institutional_letter,yes,,,the Academy of Fine Arts;National Socialist Hochschule für Baukunst;National Socialist,0,0,0,0,3,3
+S91,MITRO3-S91-CARTA-003,German,personal_letter,yes,Luis,the Baltic Sea;the Baltic Sea;Baltic Sea,,1,0,1,3,0,4
+S92,MITRO3-S92-CARTA-003,German,personal_letter,yes,Peter Behrens;Luis,,Herrsching b/München;Führer;Führer;Beblo;Raiser,2,0,2,0,5,7
+S93,MITRO3-S93-CARTA-003,German,personal_letter,yes,,Hintermoos;Alps,,0,0,0,2,0,2
+S94,MITRO3-S94-CARTA-003,English,personal_letter,yes,Jenny,Europe;Coast,SOM,1,0,1,2,1,4
+S95,MITRO3-S95-CARTA-002,German,personal_letter,yes,,,Swissair,0,0,0,0,1,1
+S96,MITRO3-S96-CARTA-001,German,personal_letter,yes,,Eifel,the Kleines Walsertal;Ford;the Non-Intervention Committee's,0,0,0,1,3,4
+S97,MITRO3-S97-CARTA-002,German,personal_letter,yes,,Himalayas;Mt. Everest,Royal Nepal Airlines,0,0,0,2,1,3
+S98A,MITRO3-S98-CARTA-002A,Spanish,personal_letter,yes,Querido Lucho;Eugenia Bund;Aka Heil Kitty,,,3,3,0,0,0,3
+S98B,MITRO3-S98-CARTA-002B,Spanish,personal_letter,yes,"Querido Lucho;Tomás Hager
+Portillo",,,2,2,0,0,0,2
+S99,MITRO3-S99-CARTA-002,English,personal_letter,yes,,Ischia,,0,0,0,1,0,1
+S100,MITRO3-S100-CARTA-001,English,personal_letter,yes,Santiago,,Golf Club Los Leones,1,0,1,0,1,2
+S102,MITRO3-S102-CARTA-002,English,personal_letter,yes,John,,Medicare;Janet & Fred,1,0,1,0,2,3
+S103,MITRO3-S103-CARTA-002,German,personal_letter,yes,,Lake Atitlan,,0,0,0,1,0,1
+S104,MITRO3-S104-CARTA-003,English,personal_letter,yes,Luis;May,,ILA;ILA,2,0,2,0,2,4
+S105,MITRO3-S105-CARTA-001,Spanish,personal_letter,yes,Bamiyan;Balkh;Alejandro el Grande;Genghis Khan;Strib;Lucho;Alejandro;Santiago;Greco,"Hotel Inter-Continental Kabul
+Bag;Bala Road;Kabul;Afghanistan;Washington;Kabul;Santiago;Pamir;Asia;Asia Menor;Europa;valle Bamiyan;Beirut;Kabul;Washington",U.S.A.,9,6,3,15,1,25
+S106,MITRO3-S106-CARTA-001,Spanish,personal_letter,yes,Lucy Pereira;Pancho Petrinovich U$200;Connie;Pancho;Milena;Banac;Lucho,STA;Georgia;Piti Santa Cruz;Dalmacia;Sarajevo,LUCIA,7,7,0,5,1,13
+S107,MITRO3-S107-CARTA-002,Spanish,personal_letter,yes,Lucho;Supe;Exequiel;Agustín;Ismael Echeverría;Larraín;Arteaga;Sergio;Charo;Luis Valdés;Tito Ceballos;Roberto Dávila Carson;Roberto Matta;Mario;Mario Matta;Juan Zailes;Blanca Bulnes;Nena;Talao;Talao;Roberto;Talao;Mateo;Victoria Subercaseaux;Luis,Viena;New York;Olimpo Metro Goldwyn Mayer;San Vicente de Tagua Tagua;Chimbarongo;La Paz;Viña;Gran Hotel;Paz;Algarrobo;Titina;España;Madrid;Hamburgo;Algarrobo;Alemania;Rusia;California;Nueva York;Chile,Sky Club;Checa;Rudder;Auto;Estados Unidos,25,24,1,20,5,50
+S108,MITRO3-S108-CARTA-001,German,personal_letter,yes,,,the German Embassy,0,0,0,0,1,1
+S185,MITRO3-S185-CARTA-003,German,personal_letter,yes,Santiago;May,,the School of Arts and Crafts,2,0,2,0,1,3
+S109,MITRO3-S109-CARTA-001,German,personal_letter,yes,,Europe;Europe,,0,0,0,2,0,2
+S110,MITRO3-S110-CARTA-003,Spanish,personal_letter,yes,"Querido Lucho;Harding;Falce;Chavela;Roberto;Chop;Mario;Roberto;Matuco
+De España;Toledo;Sastre;Wicoll;Manuel;Tata;Matuco","Hotel Pierre 1er;Champs-Elysées;Avue Pierre 1er;Serbie
+Paris
+Paris;Madrid;Yugoslavia;Chile;La Paz;Algarrobo;Madrid;Chile;Chile;Londres;Regent Street;Viena;Cumberland;Mount Royal;Marble Arch",,15,14,1,18,0,33
+S111,MITRO3-S111-CARTA-002,German,personal_letter,yes,Burberry;Luis,Danube,Burberry,2,0,2,1,1,4
+S113,MITRO3-S113-CARTA-003,Spanish,personal_letter,yes,"Señor
+Luis Mitrovich;Querido Lucho;Mil;Diaz Casanueva;Ministro Ross;Adiós;Gonzalo;Julio;Luis",Hamburg;Viena;Chile;Chile;Chile,Consulado,9,7,2,5,1,15
+S114,MITRO3-S114-CARTA-003,Spanish,personal_letter,yes,Señor Don Luis Mitrovich;Álvarez;Gonzalo;Luis,Jena;Weimar;Jena,Ministerio de Educación de Chile;Ministerio de Educación;Ministerio de Hacienda;Contraloría Nacional;Universidad;Gobierno de Chile,4,3,1,3,6,13
+S115,MITRO3-S115-CARTA-003,Spanish,personal_letter,yes,Díaz Casanueva;Díaz;Navarro;Ministro de Hacienda;Grove;Gonzalo;Prof,Chile;París;Chile;Chile;Chile,P. Radical;Mov;Nacionalsocialista;Partido,7,7,0,5,4,16
+S116,MITRO3-S116-CARTA-003,Spanish,personal_letter,yes,Querido Lucho;Álvarez;Dios;Rector;Álvarez;Gonzalo;Marcos,Jena;Jena,Rector;Universidad,7,6,1,2,2,11
+S117,MITRO3-S117-CARTA-003,Spanish,personal_letter,yes,"Querido Mitrovich;Ud;Registermark;Gonzalo
+Si;Suceso;Zig-Zag;Perdone;Gonzalo;Marcos",Jena;Weimar;Turingia;Baviera;Weimar;Jena;Victoria;Alemania;Austria,Ud.;Ud;Ud;Ud;Ud;Ud;Ud;Ud.,9,7,2,9,8,26
+S118,MITRO3-S118-CARTA-003,Spanish,personal_letter,yes,Secretario del Rector;Álvarez;Álvarez;Dios;Gonzalo;Álvarez,Jena;Chile,Universidad;Rector,6,6,0,2,2,10
+S119,MITRO3-S119-CARTA-003,Spanish,personal_letter,yes,Don Luis Mitrovich B.;Díaz Casanueva;Registermark;Frachtgut;Rector de la Universidad;Latorre Salamanca;Santiago;Luis,Jena;Viena;Alemania;Europa;Hamburgo;Hamburgo;Hamburgo;Londres;Registermark;Jena;Jena;Jena;Hamburgo;Santiago;Chile;Europa;Jena;Chile;Chile;Legación;Chile;Enero;Hamburgo,"Vapor ""Ammon"";Libras Esterlinas;Embajador Porto-Seguro;Universidad de Santiago;Bürgemeister;Frente Popular;Socialistas;Comunistas;Consulado de Chile",8,6,2,23,9,40
+S120,MITRO3-S120-CARTA-003,Spanish,personal_letter,yes,Don Luis Mitrovich Balbontin;Querido Lucho;Registermark;G. Latorre Salamanca;Santiago;Luis,Jena;Viena;Hamburgo;Jena;Santiago;Chile;Santiago;Alemania;Chile;Jena,Ministerio del Interior de Chile;Reichsbank;Registerguthaben;Tesorería;Universidad del Estado;Frente Popular;Legación,6,4,2,10,7,23
+S121,MITRO3-S121-CARTA-001,German,personal_letter,yes,,,,0,0,0,0,0,0
+S122A,MITRO3-S122-CARTA-003,Spanish,personal_letter,yes,"Querido Chiemüller;Alberto;General Novoa;Alessandri;Mocicki;Herrn Alfonso;S.S.;A.
+Jorge Hübner;Santiago;Alfonso;Antonio",Varsovia;Alemania;Viena;Alemania;Polonia;Chile;Santiago;calle Ahumada;Chile,Austria;Polonia,11,8,3,9,2,22
+S122B,MITRO3-S122-CARTA-006,Spanish,personal_letter,yes,Chick Müller;Ofelia,,Ud,2,2,0,0,1,3
+S122C,MITRO3-S122-CARTA-007 ,Spanish,personal_letter,yes,"Señor Jorge Hübner
+Varsovia;Preciosa;Doctor Pangloss;Santiago;Doctor;Ofelia;S.;G Diaz;Santa Bárbara",Santiago;Santiago;Villa del Huelen;San Cristóbal;Alameda;Santa Bárbara;Suiza;Reino de Pluto;Zurich;Santiago;Chañaral;Viña del Mar;Santiago;calle Bilbao;esquina Román Díaz;Señora Dallera,Correo 15;Caja de Crédito Minero;Salado;Ud,9,8,1,16,4,29
+S194,MITRO3-S194-CARTA-002,Spanish,personal_letter,yes,Profeta Isaire;Echenique;Juan;Pilola,Congonhas do Campo;Aleijadinho,"Prophet Isaire
+Brasil",4,4,0,2,1,7
+S195,MITRO3-S195-CARTA-003,Spanish,personal_letter,yes,Querido Lucho;Latorre;Arturo Irarrázabal;Marchant;Mattita;Don Luis;Dios;María;Mariti;Vd;Luis,CHILE;Estocolmo;Viena;Viena;Europa,,11,10,1,5,0,16
+S196A,MITRO3-S196-CARTA-004,English,institutional_letter,yes,Frau Gräfin;Luis,,"BABURIZZA & Co;National 9104;Baburizza, Stock;S. Ireland;Banker's;Salzburger Kredit- und Wechsel-Bank;Register Marks;BABURIZZA & COMPANY LTD.;JSW/WH",2,0,2,0,9,11
+S196B,MITRO3-S196-CARTA-003,English,institutional_letter,yes,Frau Gräfin;Luis,,"BABURIZZA & Co;National 9104;Baburizza, Stock;S. Ireland;Banker's;the Salzburger Kredit- und Wechsel-Bank;Register Marks;the Diskonto-Gesellschaft;Reserve;BABURIZZA & COMPANY LTD.;JSW/WH",2,0,2,0,11,13
+S197,MITRO3-S197-CARTA-003,English,personal_letter,yes,John;Luis;May,Keukenhof,,3,0,3,1,0,4
+S198,MITRO3-S198-CARTA-003,English,personal_letter,yes,Rolf Altenburger;John;Luis;May,Europe,the British Royal Air Force;KLM;Cessna's;Frasca;American,4,0,4,1,5,10
+S199,MITRO3-S199-CARTA-003,English,personal_letter,yes,Angela;John;Luis;May,Europe,Sony Videocamera,4,0,4,1,1,6
+S200,MITRO3-S200-CARTA-003,English,personal_letter,yes,Santiago;Angela;John;Luis;May,Europe;Europe,KLM;Christian Society;KLM,5,0,5,2,3,10
+S202,MITRO3-S202-CARTA-001,English,personal_letter,yes,Hannes Schneider;Rolf Altenburger;Emile Allais;Santiago;Angela;John;Luis;Pia,Northern Chile;Pan de Azucar;the Pacific Ocean;Pacific;Humbolt;Pan de Azucar;a National Fauna;Flora Preservation Park;Andes;the South Lake District;Lake Villarrica;Lake Rupanco;South;Volcano Villarrica;Rupanco Volcano Osorno;Cerro Punteagudo;Dolomites,Chevrolet,8,0,8,17,1,26
+S25A,MITRO3-S25-DOC-009,English,non_epistolary_collected,yes,,,Tourism Projects Department;World Bank;IBRD Loan;Bank;Ministry;Bank;TAC-TUKAN;TAC;Bank;Bank,0,0,0,0,10,10
+S25B,MITRO3-S25-DOC-011,English,professional_letter,yes,John;Luis;May,South America,"TAC
+THE ARCHITECTS COLLABORATIVE INC.;The Architects Collaborative Inc.;The Architects Collaborative;THE ARCHITECTS COLLABORATIVE Inc.;JCH:MGC
+46 Brattle Street",3,0,3,1,5,9
+S27,MITRO3-S27-DOC-001,Spanish,personal_letter,yes,Schmutzer;Cia;Eine Ganze Welt Gegen Uns;Bergwelt Wunderwelt;Berge und Heimat;Die Kunst des Ostens;Märten von Boviz;Griz;Anthony Adverse;Franziskus;Josef Fouché;Der Götze;Strebel werk;Der Mythus;Rosenberg;El Hakim;Sobre Ejipto;Die Sieben Säulen;der Weissheit;Nijinsky;Franz Mark;Mi Lucha;Gonzalo Latorre;Pieter Brueghel;Moderne Bauformen;Das Japanische Wohnhaus;Das Englische Haus;Lexikon der;Die Darstellung von Bauzeichnungen im Hochhaus;Lehre vom Neuen Bauen;Das Einfamilienhaus;Mestrovic;Entreténgase;Matuco;Fanica;Ud;Ud.;Matuco;Gonzalo;Fránica,Pekin;Tirol;Japan;Franica;la Pancha;Franica;Fránica;Bamberg;Weltsprachen;Wohnbaufibel;Das Deutsche Wohnhaus;Kunst des Fernen Ostens;Georgia;Alemán;Inglés;Viena,Gestern-Heute-Morgen;Straveller's Library;Sié la Fránica;Alemania;Hitler;Die Neue Linie;Kunst;National Geographic Magazine;Innen Dekoration;Deutsche Kunst;Ud;Georgia,40,38,2,16,12,68
+S31,MITRO3-S31-CARTA-003,Spanish,institutional_letter,yes,Sub.Tte. del Regto;Esmeralda;Sgto;Mayor de Ejército;Jefe del Ejército don Manuel Baquedano;Jefe don Manuel Baquedano;Jefe don Patricio Lynch;Agustín Barrientos;Archivero General de Guerra;Santiago;Julio,Estado Mayor de Plaza de Santiago;Cmdte;Cia. de Cab. de los Andes;Sepbre;Sepbre;Batalla de Chorrillos;Lima;Batalla Tacna;Miraflores;Archivo;Santiago 2 Sepbre,"Ministerio de Guerra Nacional
+Subsecretaría de Guerra
+Expediente N.º 8349
+Ejército de Chile
+Hoja de Servicios del Sargento Mayor don German Ramon Balbontin V.;Perú;Bolivia;Sr. General de Brigada;Sr. General;Sr. General;General Cáceres;Sepbre",11,9,2,11,8,30
+S32,MITRO3-S32-DOC-001,English,non_epistolary_collected,yes,Hannes Schneider,North River;Eastern Slopes Inn;Eastern Slopes Inn;Eastern Slopes Inn;Eastern Slopes Inn;Eastern Slopes Inn;Wildcat Mt.;Eastern Slopes;Wildcat Mt.;Cannon Mountain;Mt. Mansfield,"Chilean Team Committee;National Ski Association of America
+For Release;the Chilean Ski Team;the Chilean Team Committee;the National Ski Association of America;National Broadcasting Company;Chilean Team Committee;Union Club;Trumbull College;Yale University;Yale Ski Club;Harvard College;Harvard Ski Team;Attend Advanced Slalom School;Attend Advanced Slalom School;Advanced Slalom School;Advanced Slalom School;Dartmouth College;Dartmouth Outing Club;Dartmouth Carnival;Dartmouth Outing Club;Dartmouth College Carnival;Dartmouth Outing Club;Dartmouth College Carnival;Dartmouth Outing Club;Club;Club;Club;Club",1,0,1,11,29,41
+S40,MITRO3-S40-CARTA-001,Spanish,personal_letter,yes,Angela;Lucho;Lima;Etienne;Sr. Clemens Ostendorf;Señora;Etienne;Etienne;Bruno;Etienne;Etienne;Bruno;Etienne;Amelie;Etienne;Mamá;Angela;Angela;Lucho;Etienne;Clemens Ostendorf;Marcos,Lima;Perú;Chile;Perú;Lima;Austria;Hamburgo;Hamburgo;Hotel;Austria;Alemania;Carintia;Klagenfurt;Viena;Alemania;Suecia;America Latina;Austria,VW Variant;La Televisión;Radio;Viet Nam,22,20,2,18,4,44
+S41,MITRO3-S41-CARTA-001,Spanish,personal_letter,yes,"Siré
+Tuderschitz;Etienne;Etienne;Mamá;Mamá;Mamá;Mamá;Lima;Mamá;Bruno;Julio;Dios;Mamá;Bruno;Bruno;Bruno;Bruno;Mamá;Pintado;Angela;Lucho;Felices Pascuas;Nora;Etienne",lago Wörthersee;Austria;Carinthia;Kärnten;Italia;Yugoslavia;Austria;Peru;Lima-Miraflores;Lima;Hamburgo;Lima;Europa;Chaclacayo;Lima;casa de mi Mamá;Chaclacayo;Peru;Europa;Caracas;Lisboa;Milano;lago Garda;Austria;Carinthia;Klagenfurt;Carinthia;Tuderschitz;Moosburg;Austria;Peru;Austria;Austriaco;Peruanos;Chaclacayo;Perú;Karawanken;Austria;Italia;Trieste;Lima;Europa;Lima;Miraflores;Europa,"MOOSBURG
+Austria""Föhrenau;Alitalia First",24,24,0,45,2,71
+S43,MITRO3-S43-CARTA-003,German,personal_letter,yes,Rolf Altenburger;Schmidheiny;Marc Rich;Santiago;Bastian;Pia;Tim,Latin America,the Cellulosefabrik Attisholz SA Solothurn;the World Bank;the Cellulose SA;the World Bank;the Cellulosefabrik Attisholz SA;Bundesrat;the State Department for Education;Graphics/Photography;Credit Suisse,7,0,7,1,9,17
+S44,MITRO3-S44-CARTA-002,Spanish,personal_letter,yes,"Dear Lucho;Ana María;Dios;Valeria;Fernando;Hugh Stubbins;Ana María;Miglia
+Fernando;Julio",Newton;old Victorian;Los Angeles;Florida;Cambridge;Cambridge,,9,8,1,6,0,15
+S46A,MITRO3-S46-CARTA-002,German,institutional_letter,yes,Santiago;Luis,,"DEUTSCHER AUSFLUGVEREIN
+SEKTION CHILE
+des Deutschen und Oesterreichischen Alpenvereins;Club Alemán de Excursionismo;WIEN;Alpine Club",2,0,2,0,4,6
+S46B,MITRO3-S46-CARTA-003,German,institutional_letter,yes,Santiago;Luis,,,2,0,2,0,0,2
+S47,MITRO3-S47-CARTA-001,German,institutional_letter,yes,Santiago;Luis,,"DEUTSCHER AUSFLUGVEREIN
+SEKTION CHILE
+des Deutschen und Oesterreichischen Alpenvereins;Club Alemán de Excursionismo;the General Assembly;Santiago
+Sektion Chile des Deutschen und Oesterr",2,0,2,0,4,6
+S50,MITRO3-S50-CARTA-001,Spanish,personal_letter,yes,Querido Strip;Eleanor;Susan;Consuelo;Angela;Claudio Bravo;Susan;Angela;Consuelo;Angela;Strip;Angela;Angela;Consuelo;Strip Senior;Consuelo;Angela;Angela;Angela;Susan;Susan,Boston;Martinsburg;Venezuela;Boston;Washington DC;Boston,Uds;World Bank;Uds,21,21,0,6,3,30
+S53,MITRO3-S53-CARTA-001,Spanish,personal_letter,yes,Lucho;De Amelia;tía Lucía;tía Ita;E°;Ita;tía Ita;tía Ita;Ita;Georginita;Saintclaire;Georginita;Mamá Inés;Herminda;Rosmary;Ximena;Santiago;Amelia,Santiago;Georginita;Ñuñoa;Casablanca;Pirámides;Curacaví,Georginita;Ministerio de Defensa;Chilectra;Georginita;Sylviana,18,16,2,6,5,29
+S55,MITRO3-S55-CARTA-003,Spanish,personal_letter,yes,Mario Barriga;Sra;Fránica;Santiago;Mario Pérez de Arce;A. Errázuriz;Lalo;Cucho;Benders,Santiago 6;Sra. Fránica;Alemana;Viña;Santiago;Calculista,Cía;Cerrajería;Benders,9,8,1,6,3,18
+S56,MITRO3-S56-CARTA-002,Spanish,personal_letter,yes,"Señor Don;Luis Mitrovic;Gerente Don Santiago Poklepovic;Don Luis;Señora;Doctor;Don Luis;Doctor Moran Sost;Doctor;Dr. de la Oficina;Señora Madre;S.S.S.
+Thomas H. Wasley;Santiago;Luis",Oficina Salitrera de Don Luis Mitrovich;Aguas Blancas;Casa de Administración;Antofagasta;Ñuñoa,Ferrocarril;Ud;Ud,14,12,2,5,3,22
+S58,MITRO3-S58-CARTA-002,Spanish,personal_letter,yes,Zoppot;Tunes,Varsovia,,2,2,0,1,0,3
+S64A,MITRO3-S64-CARTA-002,Spanish,personal_letter,yes,Recordado Chicmüllers;Jorge Hübner Gallo,Varsovia;Chile;Weimar;Varsovia,,2,2,0,4,0,6
+S64B,MITRO3-S64-CARTA-002,Spanish,personal_letter,yes,Chick;Escríbame;Jorge Hübner B.,Varsovia;Viena;Chile;Chile;Viena;Alemania,Ud;Ud,3,3,0,6,2,11
+S65,MITRO3-S65-CARTA-002,English,personal_letter,yes,,the Virgin Islands,Chalet Wendy,0,0,0,1,1,2
+S67,MITRO3-S67-CARTA-003,German,personal_letter,yes,the Queen Mother of Holland;Mr. von Dibitsch;Mrs. Simpson;Dr. Schacht;Edward VIII;Norkauer;Juliane;Erfurt;Bojan,Upper Bavaria;Europe;Europe,National Socialists;Rolleiflex & Co.;Bayern Haus;NS;Reichstag;the Conference of Buenos Aires;the League of Nations;NS,9,0,9,3,8,20
