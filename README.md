@@ -6,11 +6,9 @@ Supervisor: Franziska Pannach
 
 ---
 
-## Overview
+## Abstract
 
-This repository contains the full computational pipeline supporting the MA thesis *Reconstructing a life and social relationships from Epistolary Network Analysis: Luis Mitrovic Balbontín Archive*. The project applies Named Entity Recognition (NER) and social network analysis to the epistolary archive of Luis Mitrovic Balbontín (1911–2008), a Chilean architect, photographer, and prolific correspondent whose papers were received by Fundación Enterreno in 2023.
-
-The archive comprises a sample of 141 letters in Spanish, English, and German spanning 1934 to 2006. The pipeline extracts named entities using Stanza 1.11.1, constructs a correspondence network in Gephi, and produces explorative and interactive visualizations accessible online.
+This thesis investigates how Named Entity Recognition (NER) and social network analysis can reconstruct the social world of an individual from a fragmentary, uncatalogued personal archive. The case study is the correspondence of Luis Mitrovic Balbontín (1911–2008), a Chilean architect and photographer whose archive, held by Fundación Enterreno, comprises more than 17,000 photographic items and approximately 3,500 letters, but had received no prior systematic study. A working corpus of 141 multilingual documents (Spanish, English, German) was assembled, processed through a Stanza-based NER pipeline, and used to construct an ego-centred correspondence network in Gephi. The pipeline extracted 1,149 unique entities across 2,633 mentions, producing a network of 147 nodes and 662 edges. Analysis of this network identifies central mediators, geographic clusters, and temporal patterns consistent with Mitrovic's documented biographical periods. The thesis argues that epistolary network analysis can function as an exploratory methodology for unknown personal archives, cultivating serendipitous discovery while producing replicable, citable results, and that the structured knowledge it generates can anchor future work on the associated photographic collection.
 
 ---
 
